@@ -1,6 +1,6 @@
 ---
-title: Home
-layout: default-layout.njk
+title: Hello World!
+layout: default-layout.html
 ---
 
 # Hello World!
