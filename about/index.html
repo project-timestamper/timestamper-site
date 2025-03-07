@@ -2,7 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Introducing Project Timestamper</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🕚</text></svg>"
+    />
+    <title>About Project Timestamper</title>
     <style>
       body {
         font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
@@ -19,43 +24,84 @@
         margin: 0 auto;
         display: block;
       }
-      .content {
-        padding: 2em;
-        max-width: 800px;
+      .inner {
+        padding: 1em 1em;
+        max-width: 720px;
         margin: 0 auto;
       }
-      .heading {
-        background-color: rgb(187, 187, 187);
-        padding: 2rem;
+      .header {
+        background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://i0.wp.com/mayadecipherment.com/wp-content/uploads/2016/06/piedra-del-sol-cropped.jpg');
+        color: rgb(254, 244, 244);
+        background-size: max(1000px, 120vw);
+        background-position: 50% 50%;
+      }
+      .row {
+        display: flex;
+        flex-direction: row;
+        align-items: top;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+      }
+      .nav-bar {
+        font-size: 18px;
+      }
+      .nav-item {
+        margin: 0.25em;
       }
       .title-wrapper {
         max-width: 800px;
         margin: 0 auto;
       }
+      .site-title {
+        text-transform: uppercase;
+        font-size: 36px;
+        font-weight: bold;
+        line-height: 1.1;
+       /* height: 12em;*/
+      }
+      .site-title a {
+        color: white;
+        text-decoration: none;
+      }
       blockquote {
         font-style: italic;
         font-size: 18px;
         margin: 0;
-        padding: 1rem 2em;
-        background-color: rgb(255, 253, 229);
+        padding: 0.4rem 2em;
+        background-color: rgb(253, 251, 242);
         border-radius: 1rem;
+      }
+      h1 {
+        line-height: 1.1;
+        margin: 0 0 0.5em 0;
+      }
+      .hamburger {
+        font-size: 32px;
+        font-weight: bold;
+        line-height: 1.1;
       }
     </style>
   </head>
   <body>
-  <div class="heading">
-    <div class="title-wrapper">
-      <h1>Introducing Project Timestamper</h1>
+  <div class="header">
+  <div class="inner row">
+    <div class="site-title">
+      <a href="/">Project 🕚 Timestamper</a>
+    </div>
+    <div class="hamburger">
+      ☰
     </div>
   </div>
-  <div class="content">
+</div>
+  <div class="content inner">
+    <h1>About Project Timestamper</h1>
     <blockquote>
 <p>&quot;Do you realize that the past, starting from yesterday, has been actually abolished? If it survives anywhere, it's in a few solid objects with no words attached to them, like that lump of glass there. Already we know almost literally nothing about the Revolution and the years before the Revolution. Every record has been destroyed or falsified, every book has been rewritten, every picture has been repainted, every statue and street and building has been renamed, every date has been altered. And that process is continuing day by day and minute by minute. History has stopped. Nothing exists except an endless present in which the Party is always right. I know, of course, that the past is falsified, but it would never be possible for me to prove it, even when I did the falsification myself.&quot;</p>
 </blockquote>
 <p style="text-align: right;">-- Winston Smith in <a href='https://gutenberg.net.au/ebooks01/0100021h.html'><i>1984</i></a> (George Orwell)</p>
-<p>Project Timestamper is an open-source effort to protect the integrity of humanity’s informational heritage in the age of generative AI. By digitally timestamping historical content as it exists in the mid 2020s, we hope to ensure that human generated content of the past can be clearly identified as such even after AI-generated content comes to dominate our culture.</p>
+<p>Project Timestamper is an open-source effort to protect the integrity of humanity’s informational heritage in the age of generative AI. By digitally timestamping historical content as it exists in the mid 2020s, we hope to ensure that human-generated content of the past can be clearly identified as such even after AI-generated content comes to dominate our culture.</p>
 <p>To understand the threat that generative AI poses to the historical informational record, it is helpful to consider how the information economy has evolved since ancient times. The falling costs of generating, reproducing, and transmitting information over time have big implications for those who value our cultural and scientific heritage.</p>
-<p>In the far past, essentially all human-consumable text and images were generated by humans. Human cultural records were tightly bound to physical objects such as stone tablets, parchment, cave drawings, paintings, etc. Information was scarce because its generation, reproduction and transmission was very expensive. Any ancient work of literature, art, or science had great value because it was so rare and often written in stone or on expensive parchment or paper. Intellectual property was relatively easy to enforce because it coincided with control of physical property.</p>
+<p>In the far past, essentially all human-consumable text and images were handmade by humans. Human cultural records were tightly bound to physical objects such as stone tablets, parchment, cave drawings, paintings, etc. Information was scarce because its generation, reproduction and transmission was very expensive. Any ancient work of literature, art, or science had great value because it was so rare and often written in stone or on expensive parchment or paper. Intellectual property was relatively easy to enforce because it coincided with control of physical property.</p>
 <p><img src="/images/Rosetta_Stone_BW.jpeg" alt="The Rosetta stone">
 <em>The <a href="https://en.wikipedia.org/wiki/Rosetta_stone">Rosetta stone</a>, the key to ancient Egyptian writing.</em></p>
 <p>As history passed through the popularization of the printing press, photography, audio and video recording, and finally the internet, information has been increasingly less attached to unique physical objects and much cheaper to share. The cost of obtaining meaningful information became dominated by the generation of that content and no longer its reproduction or transmission. As a result of this change in costs, the enforcement of intellectual property, or copyright, has become much more difficult.</p>
@@ -89,5 +135,8 @@ taken over the information space.)</p>
 <p>We appreciate all support! Code contributions, cooperation and other forms of support are gratefully accepted.</p>
 
   </div>
+  <div class="footer inner">
+  <a href="mailto:info@projecttimestamper.org">info@projecttimestamper.org</a>
+</div>
   </body>
 </html>
