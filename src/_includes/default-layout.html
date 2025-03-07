@@ -2,6 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🕚</text></svg>"
+    />
     <title>{{title}}</title>
     <style>
       body {
@@ -19,37 +24,70 @@
         margin: 0 auto;
         display: block;
       }
-      .content {
-        padding: 2em;
-        max-width: 800px;
+      .inner {
+        padding: 1em 1em;
+        max-width: 720px;
         margin: 0 auto;
       }
-      .heading {
-        background-color: rgb(187, 187, 187);
-        padding: 2rem;
+      .header {
+        background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://i0.wp.com/mayadecipherment.com/wp-content/uploads/2016/06/piedra-del-sol-cropped.jpg');
+        color: rgb(254, 244, 244);
+        background-size: max(1000px, 120vw);
+        background-position: 50% 50%;
+      }
+      .row {
+        display: flex;
+        flex-direction: row;
+        align-items: top;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+      }
+      .nav-bar {
+        font-size: 18px;
+      }
+      .nav-item {
+        margin: 0.25em;
       }
       .title-wrapper {
         max-width: 800px;
         margin: 0 auto;
       }
+      .site-title {
+        text-transform: uppercase;
+        font-size: 36px;
+        font-weight: bold;
+        line-height: 1.1;
+       /* height: 12em;*/
+      }
+      .site-title a {
+        color: white;
+        text-decoration: none;
+      }
       blockquote {
         font-style: italic;
         font-size: 18px;
         margin: 0;
-        padding: 1rem 2em;
-        background-color: rgb(255, 253, 229);
+        padding: 0.4rem 2em;
+        background-color: rgb(253, 251, 242);
         border-radius: 1rem;
+      }
+      h1 {
+        line-height: 1.1;
+        margin: 0 0 0.5em 0;
+      }
+      .hamburger {
+        font-size: 32px;
+        font-weight: bold;
+        line-height: 1.1;
       }
     </style>
   </head>
   <body>
-  <div class="heading">
-    <div class="title-wrapper">
-      <h1>{{title}}</h1>
-    </div>
-  </div>
-  <div class="content">
+  {% include "header.html" %}
+  <div class="content inner">
+    <h1>{{title}}</h1>
     {{ content }}
   </div>
+  {% include "footer.html" %}
   </body>
 </html>
