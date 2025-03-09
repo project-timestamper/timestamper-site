@@ -1,7 +1,7 @@
 export default function (eleventyConfig) {
   // Add a passthrough copy for static files (like images)
   eleventyConfig.addPassthroughCopy("src/images");
-
+  eleventyConfig.addPassthroughCopy("src/styles");
   // Return the configuration object
   return {
     dir: {

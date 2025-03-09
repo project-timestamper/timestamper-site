@@ -11,14 +11,14 @@ Project Timestamper is an open-source effort to protect the integrity of humanit
 
 To understand the threat that generative AI poses to the historical informational record, it is helpful to consider how the information economy has evolved since ancient times. The falling costs of generating, reproducing, and transmitting information over time have big implications for those who value our cultural and scientific heritage.
 
-In the far past, essentially all human-consumable text and images were handmade by humans. Human cultural records were tightly bound to physical objects such as stone tablets, parchment, cave drawings, paintings, etc. Information was scarce because its generation, reproduction and transmission was very expensive. Any ancient work of literature, art, or science had great value because it was so rare and often written in stone or on expensive parchment or paper. Intellectual property was relatively easy to enforce because it coincided with control of physical property.
+For much of history, essentially all human-consumable text and images were handmade by humans. Human cultural records were tightly bound to physical objects such as stone tablets, parchment, cave drawings, paintings, etc. Information was scarce because its generation, reproduction and transmission was very expensive. An ancient copy of literature, art, or science had great value because it was so rare and often written in stone or on expensive parchment or paper. Intellectual property was relatively easy to enforce because it coincided with control of physical property.
 
 ![The Rosetta stone](/images/Rosetta_Stone_BW.jpeg)
 *The [Rosetta stone](https://en.wikipedia.org/wiki/Rosetta_stone), the key to ancient Egyptian writing.*
 
-As history passed through the popularization of the printing press, photography, audio and video recording, and finally the internet, information has been increasingly less attached to unique physical objects and much cheaper to share. The cost of obtaining meaningful information became dominated by the generation of that content and no longer its reproduction or transmission. As a result of this change in costs, the enforcement of intellectual property, or copyright, has become much more difficult.
+As history passed through the popularization of the printing press, photography, audio and video recording, radio and television and finally the internet, information has been increasingly less attached to unique physical objects and much cheaper to copy and share. The cost of obtaining meaningful information became dominated by the generation of that content and no longer its reproduction or transmission. As a result of this change in costs, the enforcement of intellectual property, or copyright, has become much more difficult.
 
-Nonetheless, convincing high quality content remained relatively expensive to fake. So the simple existence of a piece of work, if it appeared to be high quality and costly to make, lent that work at least a certain presumption of authenticity.
+Nonetheless, generating high quality content remained relatively expensive. Masterworks of art or science were extremely difficult to fake. So the simple existence of a piece of work, if it appeared to be high quality and costly to make, lent that work at least a certain presumption of authenticity.
 
 Now we are potentially entering a third phase of the information economy, where the generation of new content becomes exceedingly inexpensive: generative AIs will be able to produce content at a rate that far outpaces humans. Just as inexpensive reproductive technology made copyright hard to enforce, inexpensive generative technology will make authenticity much more difficult to enforce. The mere existence of a particular artifact will no longer give any weight to its authenticity, because fakes will be so cheap to make. Therefore, knowing what information is meaningful or true will come increasingly to rely on the ability to authenticate that information’s provenance. Who (or what) generated a piece of work, and is that source reliable?
 
@@ -31,7 +31,7 @@ Traditionally, digital signatures themselves are difficult to use because public
 
 But this change in the information economy poses a challenge not only to the authenticity of work produced by contemporary authors, but also to historical content produced before digital signatures were available. How can future generations know which is the authentic writing of Shakespeare, or Sun Tzu, or Rumi, if it’s possible to make plausible imitations in copious quantities? How will readers be able to rely on Wikipedia, when it could be edited by AI bots generating millions of plausible, but false, edits to articles or even breaking into the Wikipedia databases and making unauthorized changes to the edit history? How will humans know what happened in history if the historical record becomes heavily polluted by fake documentation? How will future generations recognize an authentic painting when there are thousands of variations of every artist's work?
 
-![Mickey Mouse, by Rembrandt](/images/mickey.jpeg)<br>
+![Mickey Mouse, by Rembrandt](/images/mickey.jpeg)
 *Mickey Mouse, by Rembrandt?*
 
 Because, historically, humans have relied on the mere existence and complexity of content to infer a certain amount of authenticity, that historical content will now be largely undefended from pollution by generative AI. In order to defend it, we need to find a way to “lock in” existing historical content so that it can’t be mistaken for future fakes.
@@ -56,11 +56,13 @@ The goal of our project is to undertake timestamping of a variety of historical 
 In addition, we have timestamped fiction and nonfiction books from LibGen, all IMDB-indexed movies found on The Pirate Bay, and all movies from the YTS movie torrents database. We didn't need to download these materials -- instead, digests are already availble for timestamping. (Note that in some jurisdictions, downloading copyrighted books and movies is illegal. However, in the future the copyright for these works of art will have expired and be available for download, so we are generating the timestamps now before generative AI has fully
 taken over the information space.)
 
-We have also timestamped all the articles in Scihub using existing digests. In the future we hope to timestamp more collections, including the genomes of humans and thousands of other organisms that have been sequenced, digitzed paintings, recorded music, etc.
+We have also timestamped all the articles in Scihub using existing digests. And we have digested and timestamped paintings and other visual art in Wikiart. In the future we hope to timestamp more collections, including the genomes of humans and thousands of other organisms that have been sequenced, recorded music, etc.
 
-We hope to encourage institutions that run important archival projects, such as the Internet Archive, Open Library, YouTube, Google Books, and Getty Images, to regularly timestamp the content in their databases as well.
+We hope to encourage institutions that run important archival projects, such as the Internet Archive, Open Library, YouTube, and Google Books, to regularly timestamp the content in their databases as well.
 
-In addition, we hope to make it easy to timestamp YouTube videos, web pages, social media posts, and other historical content that is of value to someone who wants to preserve the integrity of that content for future generations. We also want to make these timestamps easy for the public to find and verify.
+In addition, we hope to make it easy for individuals to timestamp YouTube videos, web pages, social media posts, and other historical content that is of value to someone who wants to preserve the integrity of that content for future generations.
+
+We also hope to make these timestamps easy for the public to find and verify, using a browser extension.
 
 We appreciate all support! Code contributions, cooperation and other forms of support are gratefully accepted.
 
