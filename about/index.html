@@ -1,118 +1,43 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="icon"
-      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🕚</text></svg>"
-    />
-    <title>About Project Timestamper</title>
-    <style>
-      body {
-        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-        line-height: 1.5;
-        font-size: 20px ;
-        margin: 0;
-        padding: 0;
-        color: #16181a;
-      }
-      img {
-        max-width: 100%;
-        height: auto;
-        max-height: 50rem;
-        margin: 0 auto;
-        display: block;
-      }
-      .inner {
-        padding: 1em 1em;
-        max-width: 720px;
-        margin: 0 auto;
-      }
-      .header {
-        background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://i0.wp.com/mayadecipherment.com/wp-content/uploads/2016/06/piedra-del-sol-cropped.jpg');
-        color: rgb(254, 244, 244);
-        background-size: max(1000px, 120vw);
-        background-position: 50% 50%;
-      }
-      .row {
-        display: flex;
-        flex-direction: row;
-        align-items: top;
-        justify-content: space-between;
-        flex-wrap: nowrap;
-      }
-      .nav-bar {
-        font-size: 18px;
-      }
-      .nav-item {
-        margin: 0.25em;
-      }
-      .title-wrapper {
-        max-width: 800px;
-        margin: 0 auto;
-      }
-      .site-title {
-        text-transform: uppercase;
-        font-size: 36px;
-        font-weight: bold;
-        line-height: 1.1;
-       /* height: 12em;*/
-      }
-      .site-title a {
-        color: white;
-        text-decoration: none;
-      }
-      blockquote {
-        font-style: italic;
-        font-size: 18px;
-        margin: 0;
-        padding: 0.4rem 2em;
-        background-color: rgb(253, 251, 242);
-        border-radius: 1rem;
-      }
-      h1 {
-        line-height: 1.1;
-        margin: 0 0 0.5em 0;
-      }
-      .hamburger {
-        font-size: 32px;
-        font-weight: bold;
-        line-height: 1.1;
-      }
-    </style>
-  </head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🕚</text></svg>"
+  />
+  <link rel="stylesheet" href="/styles/main.css">
+  <title>About Project Timestamper</title>
+</head>
   <body>
-  <div class="header">
-  <div class="inner row">
+  <div class="site-title-container">
+  <div class="narrow">
     <div class="site-title">
       <a href="/">Project 🕚 Timestamper</a>
     </div>
-    <div class="hamburger">
-      ☰
-    </div>
   </div>
 </div>
-  <div class="content inner">
-    <h1>About Project Timestamper</h1>
+  <div class="content narrow">
+    <h3 class="subheading">About Project Timestamper</h3>
     <blockquote>
 <p>&quot;Do you realize that the past, starting from yesterday, has been actually abolished? If it survives anywhere, it's in a few solid objects with no words attached to them, like that lump of glass there. Already we know almost literally nothing about the Revolution and the years before the Revolution. Every record has been destroyed or falsified, every book has been rewritten, every picture has been repainted, every statue and street and building has been renamed, every date has been altered. And that process is continuing day by day and minute by minute. History has stopped. Nothing exists except an endless present in which the Party is always right. I know, of course, that the past is falsified, but it would never be possible for me to prove it, even when I did the falsification myself.&quot;</p>
 </blockquote>
 <p style="text-align: right;">-- Winston Smith in <a href='https://gutenberg.net.au/ebooks01/0100021h.html'><i>1984</i></a> (George Orwell)</p>
 <p>Project Timestamper is an open-source effort to protect the integrity of humanity’s informational heritage in the age of generative AI. By digitally timestamping historical content as it exists in the mid 2020s, we hope to ensure that human-generated content of the past can be clearly identified as such even after AI-generated content comes to dominate our culture.</p>
 <p>To understand the threat that generative AI poses to the historical informational record, it is helpful to consider how the information economy has evolved since ancient times. The falling costs of generating, reproducing, and transmitting information over time have big implications for those who value our cultural and scientific heritage.</p>
-<p>In the far past, essentially all human-consumable text and images were handmade by humans. Human cultural records were tightly bound to physical objects such as stone tablets, parchment, cave drawings, paintings, etc. Information was scarce because its generation, reproduction and transmission was very expensive. Any ancient work of literature, art, or science had great value because it was so rare and often written in stone or on expensive parchment or paper. Intellectual property was relatively easy to enforce because it coincided with control of physical property.</p>
+<p>For much of history, essentially all human-consumable text and images were handmade by humans. Human cultural records were tightly bound to physical objects such as stone tablets, parchment, cave drawings, paintings, etc. Information was scarce because its generation, reproduction and transmission was very expensive. An ancient copy of literature, art, or science had great value because it was so rare and often written in stone or on expensive parchment or paper. Intellectual property was relatively easy to enforce because it coincided with control of physical property.</p>
 <p><img src="/images/Rosetta_Stone_BW.jpeg" alt="The Rosetta stone">
 <em>The <a href="https://en.wikipedia.org/wiki/Rosetta_stone">Rosetta stone</a>, the key to ancient Egyptian writing.</em></p>
-<p>As history passed through the popularization of the printing press, photography, audio and video recording, and finally the internet, information has been increasingly less attached to unique physical objects and much cheaper to share. The cost of obtaining meaningful information became dominated by the generation of that content and no longer its reproduction or transmission. As a result of this change in costs, the enforcement of intellectual property, or copyright, has become much more difficult.</p>
-<p>Nonetheless, convincing high quality content remained relatively expensive to fake. So the simple existence of a piece of work, if it appeared to be high quality and costly to make, lent that work at least a certain presumption of authenticity.</p>
+<p>As history passed through the popularization of the printing press, photography, audio and video recording, radio and television and finally the internet, information has been increasingly less attached to unique physical objects and much cheaper to copy and share. The cost of obtaining meaningful information became dominated by the generation of that content and no longer its reproduction or transmission. As a result of this change in costs, the enforcement of intellectual property, or copyright, has become much more difficult.</p>
+<p>Nonetheless, generating high quality content remained relatively expensive. Masterworks of art or science were extremely difficult to fake. So the simple existence of a piece of work, if it appeared to be high quality and costly to make, lent that work at least a certain presumption of authenticity.</p>
 <p>Now we are potentially entering a third phase of the information economy, where the generation of new content becomes exceedingly inexpensive: generative AIs will be able to produce content at a rate that far outpaces humans. Just as inexpensive reproductive technology made copyright hard to enforce, inexpensive generative technology will make authenticity much more difficult to enforce. The mere existence of a particular artifact will no longer give any weight to its authenticity, because fakes will be so cheap to make. Therefore, knowing what information is meaningful or true will come increasingly to rely on the ability to authenticate that information’s provenance. Who (or what) generated a piece of work, and is that source reliable?</p>
 <p><img src="/images/faces.png" alt="AI generated faces">
 <em>AI generated fake photos of fake humans (by <a href="https://generated.photos/">generated.photos</a>)</em></p>
 <p>Part of this authentication challenge can be met by digital signatures. A contemporary author can cryptographically sign their work with a private key, and a public key can be used to verify the authenticity of that signature. It’s mathematically impossible for an AI (or another human) to fake the signature of the original author, provided they remain in sole possession of their private digital keys.</p>
 <p>Traditionally, digital signatures themselves are difficult to use because public keys consist of a series of seemingly random letters and numbers. Blockchain technology can help with this problem, by allowing individuals to “claim” a human-memorable name (such as LeonardoDaVinci) in a way that is secure and universally recognized. By using a blockchain-based naming system such as <a href="https://namecoin.org">Namecoin</a>, humans should be able to verify the authenticity of one another’s work at scale in a way that is secure against attacks by an AI.</p>
 <p>But this change in the information economy poses a challenge not only to the authenticity of work produced by contemporary authors, but also to historical content produced before digital signatures were available. How can future generations know which is the authentic writing of Shakespeare, or Sun Tzu, or Rumi, if it’s possible to make plausible imitations in copious quantities? How will readers be able to rely on Wikipedia, when it could be edited by AI bots generating millions of plausible, but false, edits to articles or even breaking into the Wikipedia databases and making unauthorized changes to the edit history? How will humans know what happened in history if the historical record becomes heavily polluted by fake documentation? How will future generations recognize an authentic painting when there are thousands of variations of every artist's work?</p>
-<p><img src="/images/mickey.jpeg" alt="Mickey Mouse, by Rembrandt"><br>
+<p><img src="/images/mickey.jpeg" alt="Mickey Mouse, by Rembrandt">
 <em>Mickey Mouse, by Rembrandt?</em></p>
 <p>Because, historically, humans have relied on the mere existence and complexity of content to infer a certain amount of authenticity, that historical content will now be largely undefended from pollution by generative AI. In order to defend it, we need to find a way to “lock in” existing historical content so that it can’t be mistaken for future fakes.</p>
 <p>Again the blockchain comes to the rescue. Using the ingenious service <a href="https://opentimestamps.org">opentimestamps.org</a>, it’s possible to produce an unfakeable timestamp of any content that exists today. The digital timestamp proves that historical content existed at least as early as the date on which the timestamp was made. Any AI-generated content created to falsify historical documents in the future may appear authentic, but it will be impossible to backdate the counterfeit version: any timestamp on documents in the future will necessarily be later than documents that existed earlier.</p>
@@ -129,14 +54,18 @@
 <p>The goal of our project is to undertake timestamping of a variety of historical data collections of high value density available on the web. So far, we have created a service that automatically time stamps the database dumps of Wikipedia and other Wikimedia Foundation sites, including Wiktionary, Wikibooks, Wikiquote, Wikinews, Wikispecies, Wikiversity and Wikivoyage. Twice a month, Wikimedia Foundation publishes new database dumps of the entire text of all language editions of Wikipedia and these other sites. The timestamper service digests these dumps, assembles them in a manifest for timestamping by opentimestamps.org. The resulting JSON manifests and timestamp record (OTS) files are available here. We have also timestamped all books from the Gutenberg Project.</p>
 <p>In addition, we have timestamped fiction and nonfiction books from LibGen, all IMDB-indexed movies found on The Pirate Bay, and all movies from the YTS movie torrents database. We didn't need to download these materials -- instead, digests are already availble for timestamping. (Note that in some jurisdictions, downloading copyrighted books and movies is illegal. However, in the future the copyright for these works of art will have expired and be available for download, so we are generating the timestamps now before generative AI has fully
 taken over the information space.)</p>
-<p>We have also timestamped all the articles in Scihub using existing digests. In the future we hope to timestamp more collections, including the genomes of humans and thousands of other organisms that have been sequenced, digitzed paintings, recorded music, etc.</p>
-<p>We hope to encourage institutions that run important archival projects, such as the Internet Archive, Open Library, YouTube, Google Books, and Getty Images, to regularly timestamp the content in their databases as well.</p>
-<p>In addition, we hope to make it easy to timestamp YouTube videos, web pages, social media posts, and other historical content that is of value to someone who wants to preserve the integrity of that content for future generations. We also want to make these timestamps easy for the public to find and verify.</p>
+<p>We have also timestamped all the articles in Scihub using existing digests. And we have digested and timestamped paintings and other visual art in Wikiart. In the future we hope to timestamp more collections, including the genomes of humans and thousands of other organisms that have been sequenced, recorded music, etc.</p>
+<p>We hope to encourage institutions that run important archival projects, such as the Internet Archive, Open Library, YouTube, and Google Books, to regularly timestamp the content in their databases as well.</p>
+<p>In addition, we hope to make it easy for individuals to timestamp YouTube videos, web pages, social media posts, and other historical content that is of value to someone who wants to preserve the integrity of that content for future generations.</p>
+<p>We also hope to make these timestamps easy for the public to find and verify, using a browser extension.</p>
 <p>We appreciate all support! Code contributions, cooperation and other forms of support are gratefully accepted.</p>
 
   </div>
-  <div class="footer inner">
-  <a href="mailto:info@projecttimestamper.org">info@projecttimestamper.org</a>
+  <div class="footer narrow">
+  <ul class="contact-list">
+    <li><a href="https://x.com/projtimestamper">𝕏 @projtimestamper</a></li>
+    <li><a href="mailto:info@projecttimestamper.org">✉ info@projecttimestamper.org</a></li>
+  </ul>
 </div>
   </body>
 </html>

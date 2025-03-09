@@ -1,106 +1,144 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="icon"
-      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🕚</text></svg>"
-    />
-    <title>Hello World!</title>
-    <style>
-      body {
-        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-        line-height: 1.5;
-        font-size: 20px ;
-        margin: 0;
-        padding: 0;
-        color: #16181a;
-      }
-      img {
-        max-width: 100%;
-        height: auto;
-        max-height: 50rem;
-        margin: 0 auto;
-        display: block;
-      }
-      .inner {
-        padding: 1em 1em;
-        max-width: 720px;
-        margin: 0 auto;
-      }
-      .header {
-        background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://i0.wp.com/mayadecipherment.com/wp-content/uploads/2016/06/piedra-del-sol-cropped.jpg');
-        color: rgb(254, 244, 244);
-        background-size: max(1000px, 120vw);
-        background-position: 50% 50%;
-      }
-      .row {
-        display: flex;
-        flex-direction: row;
-        align-items: top;
-        justify-content: space-between;
-        flex-wrap: nowrap;
-      }
-      .nav-bar {
-        font-size: 18px;
-      }
-      .nav-item {
-        margin: 0.25em;
-      }
-      .title-wrapper {
-        max-width: 800px;
-        margin: 0 auto;
-      }
-      .site-title {
-        text-transform: uppercase;
-        font-size: 36px;
-        font-weight: bold;
-        line-height: 1.1;
-       /* height: 12em;*/
-      }
-      .site-title a {
-        color: white;
-        text-decoration: none;
-      }
-      blockquote {
-        font-style: italic;
-        font-size: 18px;
-        margin: 0;
-        padding: 0.4rem 2em;
-        background-color: rgb(253, 251, 242);
-        border-radius: 1rem;
-      }
-      h1 {
-        line-height: 1.1;
-        margin: 0 0 0.5em 0;
-      }
-      .hamburger {
-        font-size: 32px;
-        font-weight: bold;
-        line-height: 1.1;
-      }
-    </style>
-  </head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🕚</text></svg>"
+  />
+  <link rel="stylesheet" href="/styles/main.css">
+  <title>Project Timestamper</title>
+</head>
   <body>
-  <div class="header">
-  <div class="inner row">
-    <div class="site-title">
-      <a href="/">Project 🕚 Timestamper</a>
+    <div class="site-title-container splash">
+      <div class="narrow site-title-wrapper col">
+        <div class="site-title">
+          <a href="/">Project 🕚 Timestamper</a>
+        </div>
+        <div class="site-tagline">
+          An effort to preserve the integrity
+          of humanity's cultural and scientific achievements.
+          <a class="learn-more" href="/about">Learn&nbsp;more&nbsp;→</a>
+        </div> 
+      </div>
     </div>
-    <div class="hamburger">
-      ☰
+    <div class="narrow subheading">
+      <h3>Timestamp Collections</h3>
+      We have timestamped millions of works of art, literature and science, to certify their existence before the advent of mass counterfeiting by generative AI.
     </div>
+  <div class="content inner row collections">
+    
+    <div class="collection col">
+      <div class="item-name">
+        Films and TV
+      </div>
+      <img class='item-image' src='/images/2001.webp''>
+      <div class="facts">
+        <a href="https://github.com/projecttimestamper/timestamper/tree/main/docs/tpb_movies">822K movies and television shows from The Pirate Bay</a>
+      </div>
+      <div class="date facts">
+        Stamp date: 2024-09-19
+      </div>
+    </div>
+    
+    <div class="collection col">
+      <div class="item-name">
+        Films
+      </div>
+      <img class='item-image' src='/images/ikiru.jpg''>
+      <div class="facts">
+        <a href="https://github.com/projecttimestamper/timestamper/tree/main/docs/yts_movies">135K movies from YTS</a>
+      </div>
+      <div class="date facts">
+        Stamp date: 2024-09-19
+      </div>
+    </div>
+    
+    <div class="collection col">
+      <div class="item-name">
+        Fiction books
+      </div>
+      <img class='item-image' src='/images/1984.jpg''>
+      <div class="facts">
+        <a href="https://github.com/projecttimestamper/timestamper/tree/main/docs/libgen_fiction">3.03M fiction books from Libgen</a>
+      </div>
+      <div class="date facts">
+        Stamp date: 2024-09-16
+      </div>
+    </div>
+    
+    <div class="collection col">
+      <div class="item-name">
+        Non-fiction books
+      </div>
+      <img class='item-image' src='/images/atomic-bomb.jpg''>
+      <div class="facts">
+        <a href="https://github.com/projecttimestamper/timestamper/tree/main/docs/libgen_nonfiction">4.37M non-fiction books from Libgen</a>
+      </div>
+      <div class="date facts">
+        Stamp date: 2024-09-16
+      </div>
+    </div>
+    
+    <div class="collection col">
+      <div class="item-name">
+        Classic books
+      </div>
+      <img class='item-image' src='/images/frankenstein.jpg''>
+      <div class="facts">
+        <a href="https://github.com/projecttimestamper/timestamper/tree/main/docs/gutenberg_books">72K books from the Gutenberg Project</a>
+      </div>
+      <div class="date facts">
+        Stamp date: 2024-09-19
+      </div>
+    </div>
+    
+    <div class="collection col">
+      <div class="item-name">
+        scientific papers
+      </div>
+      <img class='item-image' src='/images/watson-crick.png''>
+      <div class="facts">
+        <a href="https://github.com/projecttimestamper/timestamper/tree/main/docs/scihub_articles">85.1M articles from Sci-Hub</a>
+      </div>
+      <div class="date facts">
+        Stamp date: 2024-10-11
+      </div>
+    </div>
+    
+    <div class="collection col">
+      <div class="item-name">
+        paintings
+      </div>
+      <img class='item-image' src='/images/persistence-of-memory.jpg''>
+      <div class="facts">
+        <a href="https://github.com/projecttimestamper/timestamper/tree/main/docs/wikiart_works">192K paintings and visual art from WikiArt</a>
+      </div>
+      <div class="date facts">
+        Stamp date: 2025-02-2
+      </div>
+    </div>
+    
+    <div class="collection col">
+      <div class="item-name">
+        Wikipedia
+      </div>
+      <img class='item-image' src='/images/wikipedia.png''>
+      <div class="facts">
+        <a href="https://timestamper.toolforge.org/data/">Database snapshots</a>
+      </div>
+      <div class="date facts">
+        Stamp date: Monthly since 2024-04-24
+      </div>
+    </div>
+    
   </div>
-</div>
-  <div class="content inner">
-    <h1>Hello World!</h1>
-    <h1>Hello World!</h1>
-<p>This is a test of the <a href="https://www.11ty.dev/">Eleventy</a> static site generator.</p>
-
-  </div>
-  <div class="footer inner">
-  <a href="mailto:info@projecttimestamper.org">info@projecttimestamper.org</a>
+  <div class="footer narrow">
+  <ul class="contact-list">
+    <li><a href="https://x.com/projtimestamper">𝕏 @projtimestamper</a></li>
+    <li><a href="mailto:info@projecttimestamper.org">✉ info@projecttimestamper.org</a></li>
+  </ul>
 </div>
   </body>
 </html>
