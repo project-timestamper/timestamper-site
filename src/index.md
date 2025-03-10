@@ -13,12 +13,12 @@ items:
     url: https://github.com/projecttimestamper/timestamper/tree/main/docs/yts_movies
     stamp-date: '2024-09-19'
   - name: Fiction books
-    description: 3.03M fiction books from Libgen
+    description: 3.03M fiction books from LibGen
     image: 1984.jpg
     url: https://github.com/projecttimestamper/timestamper/tree/main/docs/libgen_fiction
     stamp-date: '2024-09-16'
   - name: Non-fiction books
-    description: 4.37M non-fiction books from Libgen
+    description: 4.37M non-fiction books from LibGen
     image: atomic-bomb.jpg
     url: https://github.com/projecttimestamper/timestamper/tree/main/docs/libgen_nonfiction
     stamp-date: '2024-09-16'

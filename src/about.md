@@ -1,6 +1,7 @@
 ---
 layout: default-layout.html
 title:  "About Project Timestamper"
+width: narrow
 ---
 
 > "Do you realize that the past, starting from yesterday, has been actually abolished? If it survives anywhere, it's in a few solid objects with no words attached to them, like that lump of glass there. Already we know almost literally nothing about the Revolution and the years before the Revolution. Every record has been destroyed or falsified, every book has been rewritten, every picture has been repainted, every statue and street and building has been renamed, every date has been altered. And that process is continuing day by day and minute by minute. History has stopped. Nothing exists except an endless present in which the Party is always right. I know, of course, that the past is falsified, but it would never be possible for me to prove it, even when I did the falsification myself."
