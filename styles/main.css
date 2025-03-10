@@ -33,12 +33,6 @@ img, em {
   flex-direction: row;
   align-items: top;
 }
-.nav-bar {
-  font-size: 18px;
-}
-.nav-item {
-  margin: 0.25em;
-}
 .site-title {
   text-transform: uppercase;
   font-size: 36px;
@@ -161,4 +155,7 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.navbar {
+  margin: 1em;
 }
