@@ -1,6 +1,7 @@
 ---
 name: Arthur Edelstein
 image: arthur.jpeg
+date: 2025-01-02
 ---
 
 Hello -- I'm Arthur Edelstein, a software developer with a long-time interest in the transformative effects of computers and the internet on our society. How will human society, culture and knowledge evolve in the new age of AI? No doubt our world will be drastically changed, just as it has already been by the industrial revolution and the internet revolution.

@@ -1,6 +1,7 @@
 ---
 name: Yağmur Şahin
 image: yagmur.jpeg
+date: 2025-01-01
 ---
 Hi, I’m Yağmur Şahin, the Co-Founder of Project Timestamper.
 
