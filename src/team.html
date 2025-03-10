@@ -4,7 +4,7 @@ layout: default-layout.html
 width: inner
 ---
 <div class="content inner row items">
-  {% for member in collections.team %}
+  {% for member in collections.team | sortyByNameReverse %}
   <div class="item col width2">
     <div class="item-name">
       {{ member.data.name }}
