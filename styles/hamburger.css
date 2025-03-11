@@ -9,7 +9,7 @@
    overflow-x: hidden;
  }
 
- #menuToggle a #menuToggle
+ #menuToggle
  {
    display: block;
    /* You can also use relative/absolute here if you want to stay on the top */
