@@ -57,7 +57,7 @@ The goal of our project is to undertake timestamping of a variety of historical 
 In addition, we have timestamped fiction and nonfiction books from LibGen, all IMDB-indexed movies found on The Pirate Bay, and all movies from the YTS movie torrents database. We didn't need to download these materials -- instead, digests are already availble for timestamping. (Note that in some jurisdictions, downloading copyrighted books and movies is illegal. However, in the future the copyright for these works of art will have expired and be available for download, so we are generating the timestamps now before generative AI has fully
 taken over the information space.)
 
-We have also timestamped all the articles in Scihub using existing digests. And we have digested and timestamped paintings and other visual art in Wikiart. In the future we hope to timestamp more collections, including the genomes of humans and thousands of other organisms that have been sequenced, recorded music, etc.
+We have also timestamped all the articles in Scihub using existing digests. And we have digested and timestamped paintings and other visual art in WikiArt. In the future we hope to timestamp more collections, including recorded music, newspaper archives, sequenced genomes, etc.
 
 We hope to encourage institutions that run important archival projects, such as the Internet Archive, Open Library, YouTube, and Google Books, to regularly timestamp the content in their databases as well.
 
@@ -69,6 +69,6 @@ We appreciate all support! Code contributions, cooperation and other forms of su
 
 ### Acknowledgments
 
-We are extremely grateful to the [OpenTimestamps project](https://opentimestamps.org/), founded by Peter Todd, for providing the software libraries and calendar services that make this project possible.
+We are extremely grateful to the [OpenTimestamps project](https://opentimestamps.org/), founded by Peter Todd, for providing the software libraries and calendar services that make this project possible. Peter showed the way by [timestamping 750M objects in the internet archive](https://petertodd.org/2017/carbon-dating-the-internet-archive-with-opentimestamps) in 2017.
 
 We also wish to express our gratitude to the many people who, sometimes at significant personal risk, have been involved in digitizing, curating, hosting, seeding, and otherwise making available millions of digital files that comprise much of humanity's important cultural and scientific heritage. 
