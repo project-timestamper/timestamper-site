@@ -115,12 +115,16 @@ h1 {
   list-style-type:none;
 }
 
-a.learn-more {
+.learn-more {
+  margin-top: 0.5em;
+}
+
+.learn-more a {
   color: rgb(252 255 66);
   text-decoration: none;
 }
 
-a.learn-more:hover {
+.learn-more a:hover {
   text-decoration: underline;
 }
 
