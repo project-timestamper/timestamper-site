@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  {% include "head.html" %}
+  <body>
+    {% include './hamburger.html' %}
+    <div class="site-title-container splash">
+      <div class="narrow site-title-wrapper col">
+        <div class="site-title">
+          <a href="/">Project 🕚 Timestamper</a>
+        </div>
+        <div class="site-tagline">
+          An effort to preserve the integrity
+          of humanity's cultural and scientific achievements.
+          <a class="learn-more" href="/about">Learn&nbsp;more&nbsp;→</a>
+        </div>
+      </div>
+    </div>
+    <div class="narrow subheading">
+      <h3>Timestamp Collections</h3>
+      We have timestamped millions of works of art, literature and science, to certify their existence before the advent of mass counterfeiting by generative AI.
+    </div>
+    <div class="content inner row items">
+      {% for item in items %}
+      <div class="item col width1">
+        <div class="item-name">
+          {{item.name}}
+        </div>
+        <img
+          class="item-image"
+          src="/images/{{item.image}}"
+          '
+        >
+        <div class="facts">
+          <a href="{{item.url}}">{{item.description}}</a>
+        </div>
+        <div class="date facts">
+          Stamp date: {{item.stamp-date}}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    {% include "footer.html" %}
+  </div>
+  </body>
+</html>
