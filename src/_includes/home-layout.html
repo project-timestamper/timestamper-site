@@ -11,7 +11,7 @@
         <div class="site-tagline">
           {{tagline}}
           <div class="learn-more">
-            <a class="learn-more" href="/about">Learn more →</a>
+            <a href="/about">Learn more →</a>
           </div>
         </div>
       </div>
@@ -35,7 +35,7 @@
           <a href="{{item.url}}">{{item.description}}</a>
         </div>
         <div class="date facts">
-          Stamp date: {{item.stamp-date}}
+          {{stamp-date-label}} {{item.stamp-date}}
         </div>
       </div>
       {% endfor %}

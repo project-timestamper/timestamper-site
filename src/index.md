@@ -5,6 +5,7 @@ layout: home-layout.html
 tagline: An effort to preserve the integrity of humanity's cultural and scientific achievements.
 subtitle: Timestamp Collections
 description: We have timestamped millions of works of art, literature and science, to certify their existence before the advent of mass counterfeiting by generative AI.
+stamp-date-label: 'Stamp date:'
 items:
   - name: Films and TV
     description: 822K movies and television shows from The Pirate Bay
