@@ -2,11 +2,8 @@
 <html lang="en">
   <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1" />
-  <link
-    rel="icon"
-    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🕚</text></svg>"
-  />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🕚</text></svg>">
   <link rel="stylesheet" href="/styles/main.css">
   <link rel="stylesheet" href="/styles/hamburger.css">
   <title>Project Timestamper</title>
@@ -15,7 +12,12 @@
   <body>
     <nav role="navigation">
   <div id="menu-toggle">
-    <input type="checkbox" id="menuCheckbox" value="0" autocomplete="off" />
+    <input
+      type="checkbox"
+      id="menuCheckbox"
+      value="0"
+      autocomplete="off"
+    >
 
     <span></span>
     <span></span>
@@ -45,114 +47,146 @@
       <h3>Timestamp Collections</h3>
       We have timestamped millions of works of art, literature and science, to certify their existence before the advent of mass counterfeiting by generative AI.
     </div>
-  <div class="content inner row items">
-    
-    <div class="item col width1">
-      <div class="item-name">
-        Films and TV
+    <div class="content inner row items">
+      
+      <div class="item col width1">
+        <div class="item-name">
+          Films and TV
+        </div>
+        <img
+          class="item-image"
+          src="/images/2001.webp"
+          alt="Still from 2001: A Space Odyssey"
+        >
+        <div class="facts">
+          <a href="https://github.com/projecttimestamper/timestamper/tree/main/docs/tpb_movies">822K movies and television shows from The Pirate Bay</a>
+        </div>
+        <div class="date facts">
+          Stamp date: 2024-09-19
+        </div>
       </div>
-      <img class='item-image' src='/images/2001.webp''>
-      <div class="facts">
-        <a href="https://github.com/projecttimestamper/timestamper/tree/main/docs/tpb_movies">822K movies and television shows from The Pirate Bay</a>
+      
+      <div class="item col width1">
+        <div class="item-name">
+          Films
+        </div>
+        <img
+          class="item-image"
+          src="/images/ikiru.jpg"
+          alt="Still from Ikiru"
+        >
+        <div class="facts">
+          <a href="https://github.com/projecttimestamper/timestamper/tree/main/docs/yts_movies">135K movies from YTS</a>
+        </div>
+        <div class="date facts">
+          Stamp date: 2024-09-19
+        </div>
       </div>
-      <div class="date facts">
-        Stamp date: 2024-09-19
+      
+      <div class="item col width1">
+        <div class="item-name">
+          Fiction books
+        </div>
+        <img
+          class="item-image"
+          src="/images/1984.jpg"
+          alt="Cover of the book 1984, by George Orwell"
+        >
+        <div class="facts">
+          <a href="https://github.com/projecttimestamper/timestamper/tree/main/docs/libgen_fiction">3.03M fiction books from LibGen</a>
+        </div>
+        <div class="date facts">
+          Stamp date: 2024-09-16
+        </div>
       </div>
+      
+      <div class="item col width1">
+        <div class="item-name">
+          Non-fiction books
+        </div>
+        <img
+          class="item-image"
+          src="/images/atomic-bomb.jpg"
+          alt="Cover of the book The Making of the Atomic Bomb, by Richard Rhodes"
+        >
+        <div class="facts">
+          <a href="https://github.com/projecttimestamper/timestamper/tree/main/docs/libgen_nonfiction">4.37M non-fiction books from LibGen</a>
+        </div>
+        <div class="date facts">
+          Stamp date: 2024-09-16
+        </div>
+      </div>
+      
+      <div class="item col width1">
+        <div class="item-name">
+          Classic books
+        </div>
+        <img
+          class="item-image"
+          src="/images/frankenstein.jpg"
+          alt="Cover of the book Frankenstein, by Mary Shelley"
+        >
+        <div class="facts">
+          <a href="https://github.com/projecttimestamper/timestamper/tree/main/docs/gutenberg_books">72K books from the Gutenberg Project</a>
+        </div>
+        <div class="date facts">
+          Stamp date: 2024-09-19
+        </div>
+      </div>
+      
+      <div class="item col width1">
+        <div class="item-name">
+          scientific papers
+        </div>
+        <img
+          class="item-image"
+          src="/images/watson-crick.png"
+          alt="First page of the paper announcing discovery of the structure of DNA"
+        >
+        <div class="facts">
+          <a href="https://github.com/projecttimestamper/timestamper/tree/main/docs/scihub_articles">85.1M articles from Sci-Hub</a>
+        </div>
+        <div class="date facts">
+          Stamp date: 2024-10-11
+        </div>
+      </div>
+      
+      <div class="item col width1">
+        <div class="item-name">
+          paintings
+        </div>
+        <img
+          class="item-image"
+          src="/images/persistence-of-memory.jpg"
+          alt="The painting Persistence of Memory, by Salvador Dalí"
+        >
+        <div class="facts">
+          <a href="https://github.com/projecttimestamper/timestamper/tree/main/docs/wikiart_works">192K paintings and visual art from WikiArt</a>
+        </div>
+        <div class="date facts">
+          Stamp date: 2025-02-26
+        </div>
+      </div>
+      
+      <div class="item col width1">
+        <div class="item-name">
+          Wikipedia
+        </div>
+        <img
+          class="item-image"
+          src="/images/wikipedia.png"
+          alt="Wikipedia logo"
+        >
+        <div class="facts">
+          <a href="https://timestamper.toolforge.org/data/">Database snapshots</a>
+        </div>
+        <div class="date facts">
+          Stamp date: Monthly since 2024-04-24
+        </div>
+      </div>
+      
     </div>
-    
-    <div class="item col width1">
-      <div class="item-name">
-        Films
-      </div>
-      <img class='item-image' src='/images/ikiru.jpg''>
-      <div class="facts">
-        <a href="https://github.com/projecttimestamper/timestamper/tree/main/docs/yts_movies">135K movies from YTS</a>
-      </div>
-      <div class="date facts">
-        Stamp date: 2024-09-19
-      </div>
-    </div>
-    
-    <div class="item col width1">
-      <div class="item-name">
-        Fiction books
-      </div>
-      <img class='item-image' src='/images/1984.jpg''>
-      <div class="facts">
-        <a href="https://github.com/projecttimestamper/timestamper/tree/main/docs/libgen_fiction">3.03M fiction books from LibGen</a>
-      </div>
-      <div class="date facts">
-        Stamp date: 2024-09-16
-      </div>
-    </div>
-    
-    <div class="item col width1">
-      <div class="item-name">
-        Non-fiction books
-      </div>
-      <img class='item-image' src='/images/atomic-bomb.jpg''>
-      <div class="facts">
-        <a href="https://github.com/projecttimestamper/timestamper/tree/main/docs/libgen_nonfiction">4.37M non-fiction books from LibGen</a>
-      </div>
-      <div class="date facts">
-        Stamp date: 2024-09-16
-      </div>
-    </div>
-    
-    <div class="item col width1">
-      <div class="item-name">
-        Classic books
-      </div>
-      <img class='item-image' src='/images/frankenstein.jpg''>
-      <div class="facts">
-        <a href="https://github.com/projecttimestamper/timestamper/tree/main/docs/gutenberg_books">72K books from the Gutenberg Project</a>
-      </div>
-      <div class="date facts">
-        Stamp date: 2024-09-19
-      </div>
-    </div>
-    
-    <div class="item col width1">
-      <div class="item-name">
-        scientific papers
-      </div>
-      <img class='item-image' src='/images/watson-crick.png''>
-      <div class="facts">
-        <a href="https://github.com/projecttimestamper/timestamper/tree/main/docs/scihub_articles">85.1M articles from Sci-Hub</a>
-      </div>
-      <div class="date facts">
-        Stamp date: 2024-10-11
-      </div>
-    </div>
-    
-    <div class="item col width1">
-      <div class="item-name">
-        paintings
-      </div>
-      <img class='item-image' src='/images/persistence-of-memory.jpg''>
-      <div class="facts">
-        <a href="https://github.com/projecttimestamper/timestamper/tree/main/docs/wikiart_works">192K paintings and visual art from WikiArt</a>
-      </div>
-      <div class="date facts">
-        Stamp date: 2025-02-26
-      </div>
-    </div>
-    
-    <div class="item col width1">
-      <div class="item-name">
-        Wikipedia
-      </div>
-      <img class='item-image' src='/images/wikipedia.png''>
-      <div class="facts">
-        <a href="https://timestamper.toolforge.org/data/">Database snapshots</a>
-      </div>
-      <div class="date facts">
-        Stamp date: Monthly since 2024-04-24
-      </div>
-    </div>
-    
-  </div>
-  <div class="footer narrow">
+    <div class="footer narrow">
   <div class="col-centered">
     <div><a href="https://x.com/projtimestamper">𝕏 @projtimestamper</a></div>
     <div><a href="mailto:info@projecttimestamper.org">✉ info@projecttimestamper.org</a></div>
