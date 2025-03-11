@@ -2,7 +2,7 @@
 export default {
   "extends": "stylelint-config-standard",
   rules: {
-    "block-no-empty": true
+    "max-nesting-depth": 0
   }
 };
 
