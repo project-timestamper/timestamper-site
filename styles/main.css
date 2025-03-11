@@ -6,6 +6,7 @@ body {
   padding: 0;
   color: #16181a;
 }
+
 img, em {
   width: 100%;
   height: auto;
@@ -14,52 +15,63 @@ img, em {
   display: block;
   font-size: 16px;
 }
+
 .inner {
-  padding: 1em 1em;
+  padding: 1em;
   max-width: 1200px;
   margin: 0 auto;
 }
+
 .narrow {
-  padding: 1em 1em;
+  padding: 1em;
   max-width: 600px;
   margin: 0 auto;
 }
+
 .col {
   display: flex;
   flex-direction: column;
 }
+
 .row {
   display: flex;
   flex-direction: row;
-  align-items: top;
+  align-items: start;
 }
+
 .site-title {
   text-transform: uppercase;
   font-size: 36px;
   font-weight: bold;
   line-height: 1.1;
   text-align: center;
-  a {
-    color: white;
-    text-decoration: none;
-  }
 }
+
+.site-title a {
+  color: white;
+  text-decoration: none;
+}
+
 .site-title-container {
-  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/images/Piedra_del_Sol.jpg');
-  color: rgb(254, 244, 244);
+  background-image: linear-gradient(rgb(0 0 0 / 40%), rgb(0 0 0 / 40%)), url('/images/Piedra_del_Sol.jpg');
+  color: rgb(254 244 244);
   background-size: 140vw;
   background-position: 50% 50%;
   text-align: center;
 }
+
 .splash {
   padding: 20px;
+
   .site-title {
     font-size: min(45px,11cqw);
     line-height: 1.0
   }
+
   .site-title-wrapper {
     position: relative;
   }
+
   .site-tagline {
     color: white;
     font-size: min(30px,7.5cqw);
@@ -67,55 +79,66 @@ img, em {
     line-height: 1.2;
   }
 }
+
 blockquote {
   font-style: italic;
   font-size: 18px;
   margin: 0;
   padding: 0.4rem 2em;
-  background-color: rgb(253, 251, 242);
+  background-color: rgb(253 251 242);
   border-radius: 1rem;
 }
+
 h1 {
   line-height: 1.1;
-  margin: 0 0 0.5em 0;
+  margin: 0 0 0.5em;
 }
+
 .hamburger {
   font-size: 32px;
   font-weight: bold;
   line-height: 1.1;
 }
+
 .footer {
   a {
-    color: rgb(73, 73, 73);
+    color: rgb(73 73 73);
     text-decoration: none;
   }
+
   a:hover {
-    color: rgb(0, 0, 0);
+    color: rgb(0 0 0);
     text-decoration: underline;
   }
 }
+
 .contact-list {
   list-style: none;
   list-style-type:none;
 }
+
 a.learn-more {
-  color: rgb(252, 255, 66);
+  color: rgb(252 255 66);
   text-decoration: none;
 }
+
 a.learn-more:hover {
   text-decoration: underline;
 }
+
 .items {
   flex-wrap: wrap;
   padding: 0;
   justify-content: center;
 }
+
 .item {
   margin: 0.5em;
   display: block;
-  background-color: rgb(239, 239, 239);
+  background-color: rgb(239 239 239);
   border-radius: 0.5em;
   padding: 1em;
+
   .item-name {
     font-weight: bold;
     font-size: 24px;
@@ -124,38 +147,47 @@ a.learn-more:hover {
     padding-bottom: 0.5em;
   }
 }
+
 .subheading {
-  padding: 0em 1em;
+  padding: 0 1em;
   text-align: center;
   margin: 1em auto;
   max-width: 500px;
 }
+
 h3 {
   font-size: 30px;
   margin: 0.5em;
 }
+
 .item-image {
   border-radius: 5px;
 }
+
 .date {
   font-family: monospace;
   font-size: 20px;
   color: #777
 }
+
 .facts {
   margin-top: 1em;
 }
+
 .width1 {
   width: 300px;
 }
+
 .width2 {
   width: 400px;
 }
+
 .col-centered {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .navbar {
   margin: 1em;
 }
