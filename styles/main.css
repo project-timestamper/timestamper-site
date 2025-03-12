@@ -193,3 +193,7 @@ h3 {
 .navbar {
   margin: 1em;
 }
+.social-media {
+  font-size: min(4cqw, 20px);
+  text-align: center;
+}
