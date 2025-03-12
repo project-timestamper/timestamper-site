@@ -9,7 +9,7 @@ I am a Turkish-qualified lawyer with dual master’s degrees in cybersecurity, a
 
 I’m currently the Information Governance & Data Protection Manager at Data Protection Simplified & BJM Privacy, where we help organisations protect data, respect privacy, and stay compliant with regulations like GDPR. I also serve as Counsel at Kavlak Law Firm, advising businesses on Privacy by Design and data protection risk management frameworks.
 
-In addition, I’m a Privacy Engineering Advisory Board Member at the IAPP.
+In addition, I’m a Privacy Engineering Advisory Board Member at the International Association of Privacy Professionals (IAPP).
 
 At Project Timestamper, Arthur and I are focused on preserving truth and authenticity in the age of generative AI. With AI making it easier than ever to fake content, we use blockchain technology to build a framework for transparency and accountability, safeguarding history, culture, and intellectual heritage for future generations.
 
