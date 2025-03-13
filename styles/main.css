@@ -71,7 +71,7 @@ img, em {
 }
 
 .splash .site-title {
-  font-size: min(40px,6.4cqw);
+  font-size: min(40px,6cqw);
   line-height: 1.0;
   margin-top: 0.5em;
 }
@@ -82,7 +82,7 @@ img, em {
 
 .splash .site-tagline {
   color: white;
-  font-size: min(30px,4.8cqw);
+  font-size: min(30px,4.5cqw);
   line-height: 1.2;
   margin-top: 0.5em;
 }
