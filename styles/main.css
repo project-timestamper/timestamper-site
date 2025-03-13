@@ -44,6 +44,12 @@ img, em {
   font-size: 36px;
   font-weight: bold;
   line-height: 1.1;
+}
+
+.site-title-decoration {
+    margin: 0.25em;
+  font-size: 48px;
+  line-height: 1.1;
   text-align: center;
 }
 
@@ -64,19 +70,18 @@ img, em {
   padding: 20px;
 }
 
-.splash  .site-title {
+.splash .site-title {
   font-size: min(45px,11cqw);
   line-height: 1.0
 }
 
-.splash  .site-title-wrapper {
+.splash .site-title-wrapper {
   position: relative;
 }
 
-.splash  .site-tagline {
+.splash .site-tagline {
   color: white;
   font-size: min(30px,7.5cqw);
-  margin-top: 1em;
   line-height: 1.2;
 }
 
