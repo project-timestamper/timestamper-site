@@ -82,7 +82,7 @@ img, em {
 
 .splash .site-tagline {
   color: white;
-  font-size: min(30px,5cqw);
+  font-size: min(30px,4.5cqw);
   line-height: 1.2;
   margin-top: 0.5em;
 }
