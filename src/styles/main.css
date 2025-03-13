@@ -73,7 +73,7 @@ img, em {
 .splash .site-title {
   font-size: min(40px,6cqw);
   line-height: 1.0;
-  margin-top: 0.5em;
+  margin-top: 1em;
 }
 
 .splash .site-title-wrapper {
