@@ -1,6 +1,6 @@
 ---
 title: Project Timestamper
-site-title: Project 🕚 Timestamper
+site-title: Project Timestamper
 layout: home-layout.html
 tagline: An effort to preserve the integrity of humanity's cultural and scientific achievements.
 subtitle: Timestamp Collections
