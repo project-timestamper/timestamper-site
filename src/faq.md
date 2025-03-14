@@ -12,7 +12,7 @@ No. In general, we rely on others to store the actual files containing cultural 
 
 We store them as static files in a git repository, available to the public thanks to free storage from github. We hope this simple approach makes it more likely that the timestamps will be available and usable far into the future.
 
-#### How is this project related to the [Open Timestamps](opentimestamps.org) project?
+#### How is this project related to the [Open Timestamps](https://opentimestamps.org) project?
 
 We are running this project separately, but we rely on Open Timestamps code and calendar services to generate the timestamps. We are very grateful for the service they provide -- please [consider donating](https://opentimestamps.org/#calendars)!
 
