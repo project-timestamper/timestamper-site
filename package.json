@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-ghpages": "npx @11ty/eleventy",
-    "lint": "npx eslint src/**/*.html && npx standard && npx stylelint src/**/*.css"
+    "lint": "npx eslint src/**/*.html && npx standard && npx stylelint src/**/*.css",
+    "dev": "npx @11ty/eleventy --serve"
   },
   "type": "module",
   "author": "",
