@@ -59,7 +59,7 @@ img, em {
 }
 
 .site-title-container {
-  background-image: linear-gradient(rgb(0 0 0 / 40%), rgb(0 0 0 / 40%)), url('/images/Piedra_del_Sol.jpg');
+  background-image: linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 60%)), url('/images/Piedra_del_Sol.jpg');
   color: rgb(254 244 244);
   background-size: 140vw;
   background-position: 50% 50%;
