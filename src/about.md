@@ -66,7 +66,7 @@ We also hope to make these timestamps easy for the public to find and verify, us
 
 We appreciate all support! Code contributions, cooperation and other forms of support are gratefully accepted.
 
-### Acknowledgments
+#### Acknowledgments
 
 We are extremely grateful to the [OpenTimestamps project](https://opentimestamps.org/), founded by Peter Todd, for providing the software libraries and calendar services that make this project possible. Peter showed the way by [timestamping 750M objects in the Internet Archive](https://petertodd.org/2017/carbon-dating-the-internet-archive-with-opentimestamps) in 2017.
 
