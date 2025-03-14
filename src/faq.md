@@ -6,7 +6,11 @@ width: narrow
 
 #### Do you store the timestamped files?
 
-No. In general, we rely on the actual files containing cultural or scientific content to be stored elsewhere. In our project, we retain only cryptographic digests of those files, and the timestamp proofs necessary to verify the claimed date at which a file existed.
+No. In general, we rely on others to store the actual files containing cultural or scientific content. In our project, we retain only cryptographic digests of those files, and the timestamp proofs necessary to verify the claimed date at which a file existed.
+
+#### How are the digests and timestamp proofs stored?
+
+We store them as static files in a git repository, available to the public thanks to free storage from github. We hope this simple approach makes it more likely that the timestamps will be available and usable far into the future.
 
 #### How is this project related to the [Open Timestamps](opentimestamps.org) project?
 
@@ -14,7 +18,7 @@ We are running this project separately, but we rely on Open Timestamps code and 
 
 #### How can I verify a particular timestamp?
 
-We are working on providing a user-friendly interface for verifying timestamps from this project. Please stay tuned!
+We are working on providing a user-friendly interface for verifying timestamps from this project. Stay tuned!
 
 #### I know of a collection that should be timestamped. How do I get started?
 
