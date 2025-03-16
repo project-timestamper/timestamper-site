@@ -32,7 +32,7 @@ items:
     url: https://github.com/projecttimestamper/timestamper/tree/main/docs/libgen_nonfiction
     stamp-date: '2024-09-16'
   - name: Classic books
-    description: 72K books from the Gutenberg Project
+    description: 72K books from Project Gutenberg
     image: frankenstein.jpg
     alt: Cover of the book Frankenstein, by Mary Shelley
     url: https://github.com/projecttimestamper/timestamper/tree/main/docs/gutenberg_books
