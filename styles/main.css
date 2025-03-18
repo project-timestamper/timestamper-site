@@ -205,3 +205,46 @@ h3 {
   font-size: min(4cqw, 20px);
   text-align: center;
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: rgb(20 20 20);
+    color: rgb(249 246 243);
+  }
+
+  .item {
+    background-color: rgb(80 80 80);
+  }
+
+  .date {
+    color: rgb(242 242 242);
+  }
+
+  .item, .content a {
+    color:rgb(175 255 252);
+  }
+
+  .item, .content a:visited {
+    color:rgb(220 220 255);
+  }
+
+  .social-media a {
+    color: rgb(200 200 200)
+  }
+
+  .navbar a {
+    color: rgb(200 200 200)
+  }
+
+  blockquote {
+    background-color: rgb(91 91 91);
+  }
+
+  .content img[src$='#invertible'] {
+    filter: invert(1)
+  }
+
+  .footer a:hover {
+    color: rgb(220 220 220);
+  }
+}
