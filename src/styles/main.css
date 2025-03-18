@@ -242,7 +242,7 @@ h3 {
     background-color: rgb(91 91 91);
   }
 
-  .content img[src$='#invertible'] {
+  .content img[src*='_BW'] {
     filter: invert(1)
   }
 
@@ -254,13 +254,10 @@ h3 {
     color: rgb(195 195 195);
   }
 
-  .footer a:hover {
-    color: rgb(220 220 220);
-  }
-
   .item, .content a:visited {
     color:rgb(220 220 255);
   }
+
 }
 
 .learn-more a:hover {
@@ -270,4 +267,12 @@ h3 {
 .footer a:hover {
   color: rgb(0 0 0);
   text-decoration: underline;
+}
+
+@media (prefers-color-scheme: dark) {
+
+  .footer a:hover {
+    color: rgb(220 220 220);
+  }
+
 }

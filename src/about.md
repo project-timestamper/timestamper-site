@@ -14,7 +14,7 @@ To understand the threat that generative AI poses to the historical informationa
 
 For much of history, essentially all human-consumable text and images were handmade by humans. Human cultural records were tightly bound to physical objects such as stone tablets, parchment, cave drawings, paintings, etc. Information was scarce because its generation, reproduction and transmission was very expensive. An ancient copy of literature, art, or science had great value because it was so rare and often written in stone or on expensive parchment or paper. Intellectual property was relatively easy to enforce because it coincided with control of physical property.
 
-![The Rosetta stone](/images/Rosetta_Stone_BW.jpeg#invertible)
+![The Rosetta stone](/images/Rosetta_Stone_BW.jpeg)
 *The [Rosetta stone](https://en.wikipedia.org/wiki/Rosetta_stone), the key to ancient Egyptian writing.*
 
 As history passed through the popularization of the printing press, photography, audio and video recording, radio and television and finally the internet, information has been increasingly less attached to unique physical objects and much cheaper to copy and share. The cost of obtaining meaningful information became dominated by the generation of that content and no longer its reproduction or transmission. As a result of this change in costs, the enforcement of intellectual property, or copyright, has become much more difficult.
@@ -48,7 +48,7 @@ Our automated timestamping procedure works conceptually as follows:
 3. We submit the digests to the OpenTimestamps service using an [opentimestamps client](https://www.npmjs.com/package/opentimestamps), saving the timestamp record file that is returned.
 4. We publicly share the digests and timestamp records so that anyone in the future can verify that the files existed on today’s date.
 
-![Timestamping workflow](/images/timestamping-flow.png#invertible)
+![Timestamping workflow](/images/timestamping-flow_BW.png)
 
 Generative AI is under rapid development today. In the past couple of years, we have seen fast  progress in generative AI, and the threat of compromising the integrity of our historical record is growing. For that reason, there is an urgency to timestamp as much valuable historical content as soon as possible, so that future generations can refer back to those timestamps and have a measure of confidence that those historical documents had not yet been compromised at the time that the timestamp was generated.
 
