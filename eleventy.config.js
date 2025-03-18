@@ -6,7 +6,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/styles')
   // Add image plugin
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
-    formats: ['webp', 'jpeg', 'svg'],
+    formats: ['webp', 'jpeg', 'png'],
     svgShortCircuit: true
   })
   // Return the configuration object
