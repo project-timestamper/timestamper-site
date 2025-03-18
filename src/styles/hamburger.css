@@ -153,3 +153,18 @@
  {
   transform: none;
  }
+
+ @media (prefers-color-scheme: dark) {
+  #menu {
+    background-color: #515151;
+  }
+
+  #menu-toggle a {
+    color: rgb(245 245 245);
+  }
+
+  #menu-toggle input:checked ~ span
+  {
+    background: #f0f0f0;
+  }
+ }
