@@ -2,7 +2,7 @@
 title: Project Timestamper
 site-title: Project Timestamper
 layout: home-layout.html
-tagline: An effort to preserve the integrity of humanity's cultural and scientific achievements.
+tagline: Preserving the integrity of humanity's cultural and scientific achievements
 subtitle: Timestamp Collections
 description: We have timestamped millions of works of art, literature and science, to certify that they existed before the advent of mass counterfeiting by generative AI.
 stamp-date-label: 'Stamp date:'
@@ -32,7 +32,7 @@ items:
     url: https://github.com/projecttimestamper/timestamper/tree/main/docs/libgen_nonfiction
     stamp-date: '2024-09-16'
   - name: Classic books
-    description: 72K books from the Gutenberg Project
+    description: 72K books from Project Gutenberg
     image: frankenstein.jpg
     alt: Cover of the book Frankenstein, by Mary Shelley
     url: https://github.com/projecttimestamper/timestamper/tree/main/docs/gutenberg_books

@@ -20,6 +20,6 @@ We are running this project separately, but we rely on Open Timestamps code and 
 
 We are working on providing a user-friendly interface for verifying timestamps from this project. Stay tuned!
 
-#### I know of a collection that should be timestamped. How do I get started?
+#### I would like to suggest a collection of historical, cultural, or scientific content for Project Timestamper. How do I do that?
 
 Let's talk! Please contact us with one of the methods at the bottom of this page.
