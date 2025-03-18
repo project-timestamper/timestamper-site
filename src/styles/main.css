@@ -126,15 +126,6 @@ h1 {
   text-decoration: none;
 }
 
-.learn-more a:hover {
-  text-decoration: underline;
-}
-
-.footer a:hover {
-  color: rgb(0 0 0);
-  text-decoration: underline;
-}
-
 .items {
   flex-wrap: wrap;
   padding: 0;
@@ -208,16 +199,16 @@ h3 {
 
 .creative-commons {
   font-size: 18px;
-  color: rgb(111, 111, 111);
+  color: rgb(111 111 111);
 }
 
 .creative-commons img {
   display: inline;
-  opacity: 60%;
+  opacity: 0.6;
 }
 
 .creative-commons a {
-  color: rgb(111, 111, 111);
+  color: rgb(111 111 111);
   text-decoration: underline;
 }
 
@@ -239,10 +230,6 @@ h3 {
     color:rgb(175 255 252);
   }
 
-  .item, .content a:visited {
-    color:rgb(220 220 255);
-  }
-
   .social-media a {
     color: rgb(200 200 200)
   }
@@ -259,15 +246,28 @@ h3 {
     filter: invert(1)
   }
 
+  .creative-commons {
+    color: rgb(195 195 195);
+  }
+
+  .creative-commons a {
+    color: rgb(195 195 195);
+  }
+
   .footer a:hover {
     color: rgb(220 220 220);
   }
 
-  .creative-commons {
-    color: rgb(195, 195, 195);
+  .item, .content a:visited {
+    color:rgb(220 220 255);
   }
+}
 
-  .creative-commons a {
-    color: rgb(195, 195, 195);
-  }
+.learn-more a:hover {
+  text-decoration: underline;
+}
+
+.footer a:hover {
+  color: rgb(0 0 0);
+  text-decoration: underline;
 }
