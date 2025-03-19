@@ -3,7 +3,7 @@ import path from "node:path";
 
 export default function (eleventyConfig) {
   // Add a passthrough copy for static files
-  eleventyConfig.addPassthroughCopy('src/images')
+  eleventyConfig.addPassthroughCopy('src/img')
   eleventyConfig.addPassthroughCopy('src/styles')
   // Add image plugin
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
