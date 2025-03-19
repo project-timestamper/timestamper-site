@@ -9,6 +9,13 @@ export default function (eleventyConfig) {
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
     formats: ['webp', 'jpeg', 'png'],
     svgShortCircuit: true,
+    widths: ["auto", 300, 450, 600, 900, 1200],
+    htmlOptions: {
+      imgAttributes: {
+        loading: "lazy",
+        decoding: "async",
+      },
+    },
     filenameFormat: function (id, src, width, format, options) {
       const extension = path.extname(src);
       const name = path.basename(src, extension);
