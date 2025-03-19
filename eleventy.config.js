@@ -1,4 +1,5 @@
 import { eleventyImageTransformPlugin } from '@11ty/eleventy-img'
+import path from "node:path";
 
 export default function (eleventyConfig) {
   // Add a passthrough copy for static files
@@ -7,7 +8,12 @@ export default function (eleventyConfig) {
   // Add image plugin
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
     formats: ['webp', 'jpeg', 'png'],
-    svgShortCircuit: true
+    svgShortCircuit: true,
+    filenameFormat: function (id, src, width, format, options) {
+      const extension = path.extname(src);
+      const name = path.basename(src, extension);
+      return `${name}-${width}w.${format}`;
+    },
   })
   // Return the configuration object
   return {
