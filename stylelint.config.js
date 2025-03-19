@@ -2,6 +2,7 @@
 export default {
   extends: 'stylelint-config-standard',
   rules: {
-    'max-nesting-depth': 0
+    'max-nesting-depth': 0,
+    'media-feature-range-notation': null
   }
 }
