@@ -22,7 +22,7 @@ export default function (eleventyConfig) {
       return `${name}-${width}w.${format}`
     }
   })
-  eleventyConfig.addPassthroughCopy({ 'src/robots.txt' });
+  eleventyConfig.addPassthroughCopy('src/robots.txt')
   // Return the configuration object
   return {
     dir: {
