@@ -1,5 +1,5 @@
 import { eleventyImageTransformPlugin } from '@11ty/eleventy-img'
-import path from "node:path";
+import path from 'node:path'
 
 export default function (eleventyConfig) {
   // Add a passthrough copy for static files
@@ -12,15 +12,15 @@ export default function (eleventyConfig) {
     widths: [300, 450, 600, 900, 1200],
     htmlOptions: {
       imgAttributes: {
-        loading: "lazy",
-        decoding: "async",
-      },
+        loading: 'lazy',
+        decoding: 'async'
+      }
     },
     filenameFormat: function (id, src, width, format, options) {
-      const extension = path.extname(src);
-      const name = path.basename(src, extension);
-      return `${name}-${width}w.${format}`;
-    },
+      const extension = path.extname(src)
+      const name = path.basename(src, extension)
+      return `${name}-${width}w.${format}`
+    }
   })
   // Return the configuration object
   return {
