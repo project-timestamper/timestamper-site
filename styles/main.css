@@ -59,7 +59,7 @@ body {
 }
 
 .site-title-container {
-  background-image: linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 60%)), url('/img/Piedra_del_Sol.jpg');
+  background-image: linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 60%)), url('/img/Piedra_del_Sol.webp');
   color: rgb(254 244 244);
   background-size: 140vw;
   background-position: 50% 50%;
@@ -68,13 +68,13 @@ body {
 
 @media (min-width: 500px) and (max-width: 1000px) {
   .site-title-container {
-    background-image: linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 60%)), url('/img/Piedra_del_Sol_half.jpg');
+    background-image: linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 60%)), url('/img/Piedra_del_Sol_half.webp');
   }
 }
 
 @media (max-width: 500px) {
   .site-title-container {
-    background-image: linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 60%)), url('/img/Piedra_del_Sol_quarter.jpg');
+    background-image: linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 60%)), url('/img/Piedra_del_Sol_quarter.webp');
   }
 }
 
