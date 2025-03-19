@@ -66,6 +66,18 @@ body {
   text-align: center;
 }
 
+@media (1000px <= width) {
+  .site-title-container {
+    background-image: linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 60%)), url('/images/Piedra_del_Sol_half.jpg');
+  }
+}
+
+@media (500px <= width < 1000px) {
+  .site-title-container {
+    background-image: linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 60%)), url('/images/Piedra_del_Sol_quarter.jpg');
+  }
+}
+
 .splash {
   padding: 20px;
 }
