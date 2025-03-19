@@ -14,7 +14,7 @@ To understand the threat that generative AI poses to the historical informationa
 
 For much of history, essentially all human-consumable text and images were handmade by humans. Human cultural records were tightly bound to physical objects such as stone tablets, parchment, cave drawings, paintings, etc. Information was scarce because its generation, reproduction and transmission was very expensive. An ancient copy of literature, art, or science had great value because it was so rare and often written in stone or on expensive parchment or paper. Intellectual property was relatively easy to enforce because it coincided with control of physical property.
 
-![The Rosetta stone](/images/Rosetta_Stone_BW.jpeg)
+![The Rosetta stone](/img/Rosetta_Stone_BW.jpeg)
 *The [Rosetta stone](https://en.wikipedia.org/wiki/Rosetta_stone), the key to ancient Egyptian writing.*
 
 As history passed through the popularization of the printing press, photography, audio and video recording, radio and television and finally the internet, information has been increasingly less attached to unique physical objects and much cheaper to copy and share. The cost of obtaining meaningful information became dominated by the generation of that content and no longer its reproduction or transmission. As a result of this change in costs, the enforcement of intellectual property, or copyright, has become much more difficult.
@@ -23,7 +23,7 @@ Nonetheless, generating high quality content remained relatively expensive. Mast
 
 Now we are potentially entering a third phase of the information economy, where the generation of new content becomes exceedingly inexpensive: generative AIs will be able to produce content at a rate that far outpaces humans. Just as inexpensive reproductive technology made copyright hard to enforce, inexpensive generative technology will make authenticity much more difficult to enforce. The mere existence of a particular artifact will no longer give any weight to its authenticity, because fakes will be so cheap to make. Therefore, knowing what information is meaningful or true will come increasingly to rely on the ability to authenticate that information’s provenance. Who (or what) generated a piece of work, and is that source reliable?
 
-![AI generated faces](/images/faces.png)
+![AI generated faces](/img/faces.png)
 *AI generated fake photos of fake humans (by [generated.photos](https://generated.photos/))*
 
 Part of this authentication challenge can be met by digital signatures. A contemporary author can cryptographically sign their work with a private key, and a public key can be used to verify the authenticity of that signature. It’s mathematically impossible for an AI (or another human) to fake the signature of the original author, provided they remain in sole possession of their private digital keys.
@@ -32,7 +32,7 @@ Traditionally, digital signatures themselves are difficult to use because public
 
 But this change in the information economy poses a challenge not only to the authenticity of work produced by contemporary authors, but also to historical content produced before digital signatures were available. How can future generations know which is the authentic writing of Shakespeare, or Sun Tzu, or Rumi, if it’s possible to make plausible imitations in copious quantities? How will readers be able to rely on Wikipedia, when it could be edited by AI bots generating millions of plausible, but false, edits to articles or even breaking into the Wikipedia databases and making unauthorized changes to the edit history? How will humans know what happened in history if the historical record becomes heavily polluted by fake documentation? How will future generations recognize an authentic painting when there are thousands of variations of every artist's work?
 
-![Mickey Mouse, by Rembrandt](/images/mickey.jpeg)
+![Mickey Mouse, by Rembrandt](/img/mickey.jpeg)
 *Mickey Mouse, by Rembrandt?*
 
 Because, historically, humans have relied on the mere existence and complexity of content to infer a certain amount of authenticity, that historical content will now be largely undefended from pollution by generative AI. In order to defend it, we need to find a way to “lock in” existing historical content so that it can’t be mistaken for future fakes.
@@ -48,7 +48,7 @@ Our automated timestamping procedure works conceptually as follows:
 3. We submit the digests to the OpenTimestamps service using an [opentimestamps client](https://www.npmjs.com/package/opentimestamps), saving the timestamp record file that is returned.
 4. We publicly share the digests and timestamp records so that anyone in the future can verify that the files existed on today’s date.
 
-![Timestamping workflow](/images/timestamping-flow_BW.png)
+![Timestamping workflow](/img/timestamping-flow_BW.png)
 
 Generative AI is under rapid development today. In the past couple of years, we have seen fast  progress in generative AI, and the threat of compromising the integrity of our historical record is growing. For that reason, there is an urgency to timestamp as much valuable historical content as soon as possible, so that future generations can refer back to those timestamps and have a measure of confidence that those historical documents had not yet been compromised at the time that the timestamp was generated.
 
