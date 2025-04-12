@@ -8,7 +8,7 @@ description: We have timestamped millions of works of art, literature and scienc
 stamp-date-label: 'Stamp date:'
 items:
   - name: Films and TV
-    description: 822K movies and television shows on IMDB from the Bittorrent network
+    description: 822K movies and television shows on IMDB from the BitTorrent network
     image: 2001.webp
     alt: 'Still from 2001: A Space Odyssey'
     url: https://github.com/project-timestamper/timestamper/tree/main/docs/tpb_movies
