@@ -55,5 +55,11 @@ items:
     alt: Wikipedia logo
     url: https://timestamper.toolforge.org/data/
     stamp-date: Monthly since 2024-04-24
+  - name: Music
+    description: 86M audio tracks from Anna's Archive
+    image: baris-manco-2023.jpg
+    alt: Bariş Manço, 2023
+    url: https://github.com/project-timestamper/timestamper/tree/main/docs/annas_music
+    stamp-date: '2025-12-16'
 ---
 

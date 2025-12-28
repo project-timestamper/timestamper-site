@@ -54,11 +54,11 @@ Generative AI is under rapid development today. In the past couple of years, we 
 
 The goal of our project is to undertake timestamping of a variety of historical data collections of high value density available on the web. So far, we have created a service that automatically time stamps the database dumps of Wikipedia and other Wikimedia Foundation sites, including Wiktionary, Wikibooks, Wikiquote, Wikinews, Wikispecies, Wikiversity and Wikivoyage. Twice a month, Wikimedia Foundation publishes new database dumps of the entire text of all language editions of Wikipedia and these other sites. The timestamper service digests these dumps, assembles them in a manifest for timestamping by opentimestamps.org. The resulting JSON manifests and timestamp record (OTS) files are available here. We have also timestamped all books from the Gutenberg Project.
 
-In addition, we have timestamped fiction and nonfiction books from LibGen, all IMDB-indexed movies found on the Bittorrent network via The Pirate Bay, and all movies from the YTS movie torrents database. We didn't need to download these materials -- instead, digests are already availble for timestamping.
+In addition, we have timestamped fiction and nonfiction books from LibGen, all IMDB-indexed movies found on the Bittorrent network via The Pirate Bay, all movies from the YTS movie torrents database, and audio music tracks from Anna's Archive. We didn't need to download these materials -- instead, digests are already availble for timestamping.
 
 We have also timestamped all the articles in Scihub using existing digests. And we have digested and timestamped paintings and other visual art in WikiArt.
 
-In the near future we hope to timestamp more collections, including recorded music, newspaper archives, sequenced genomes, etc. And we encourage institutions that run important archival projects, such as the Internet Archive, Open Library, YouTube, and Google Books, to regularly timestamp the content in their databases as well.
+In the near future we hope to timestamp more collections, including newspaper archives, sequenced genomes, patents, web archives, etc. And we encourage institutions that run important archival projects, such as the Internet Archive, Open Library, YouTube, and Google Books, to regularly timestamp the content in their databases as well.
 
 In addition, we hope to make it easy for individuals to timestamp YouTube videos, web pages, social media posts, and other historical content that is of value to someone who wants to preserve the integrity of that content for future generations.
 
