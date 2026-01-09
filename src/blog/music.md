@@ -1,6 +1,6 @@
 ---
 layout: default-layout.html
-title:  "Timestamping a major portion of recorded human music"
+title:  "Timestamping a huge collection of human-created music"
 date: 2026-01-08
 width: narrow
 tags: blog
