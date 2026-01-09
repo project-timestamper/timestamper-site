@@ -9,7 +9,7 @@ We are thrilled to share our Good News in the world of music, musicology, musici
 
 At Project Timestamper, we have just completed an effort to preserve the authenticity of human recorded music.
 
-You might have seen the recent news that Anna’s Archive compiled a collection of tens of millions of recorded tracks, thereby preserving music of all kinds, recorded by humans, for future centuries.
+You might have seen the [recent news](https://techcrunch.com/2025/12/23/pirate-group-annas-archive-says-it-has-scraped-86-million-songs-from-spotify/) that Anna’s Archive compiled a collection of tens of millions of recorded tracks, thereby preserving music of all kinds, recorded by humans, for future centuries.
 
 This is a vital archive for preserving a key component of our culture. What is more important — emotionally, culturally, spiritually — than music? Nothing!
 

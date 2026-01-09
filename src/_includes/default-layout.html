@@ -5,6 +5,16 @@
     {% include "header.html" %}
     <div class="content {{width}}">
       <h3 class="subheading">{{title}}</h3>
+
+      <p class="post-meta">
+        {% if date %}
+        <time class="post-date" datetime="{{ date }}">{{ date | date: "%B %d, %Y" }}</time>
+        {% endif %}
+        {% if author %}
+        <span class="author">by {{ author }}</span>
+        {% endif %}
+      </p>
+      
       {{ content }}
     </div>
     {% include "footer.html" %}
