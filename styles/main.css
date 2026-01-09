@@ -236,10 +236,14 @@ h3 {
 }
 
 .post-date {
-  font-size: 16px;
   font-style: italic;
   color: rgb(111 111 111);
   margin: 0 0 1em;
+}
+
+.blog-posts {
+  list-style: none;
+  padding: 0;
 }
 
 @media (prefers-color-scheme: dark) {
