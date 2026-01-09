@@ -3,6 +3,7 @@ layout: default-layout.html
 title:  "Timestamping recorded music"
 date: 2026-01-08
 width: narrow
+tags: blog
 ---
 
 We are thrilled to share our Good News in the world of music, musicology, musicianship, and music appreciation!
