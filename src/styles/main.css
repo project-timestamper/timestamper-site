@@ -170,8 +170,9 @@ h1 {
 .subheading {
   padding: 0 0;
   text-align: left;
-  margin: 1em 0 0;
+  margin: 1em 0 0.2em;
   max-width: 500px;
+  line-height: 1.2;
 }
 
 h3 {

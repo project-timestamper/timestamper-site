@@ -1,6 +1,6 @@
 ---
 layout: default-layout.html
-title:  "Timestamping a huge collection of human-created music"
+title:  "Protecting humanity's musical heritage"
 date: 2026-01-08
 width: narrow
 tags: blog
