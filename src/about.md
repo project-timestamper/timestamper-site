@@ -25,7 +25,7 @@ We also hope to make these timestamps easy for the public to find and verify, us
 
 We appreciate all support! Code contributions, cooperation and other forms of support are gratefully accepted.
 
-### Technical details
+#### Technical details
 
 Our automated timestamping procedure works conceptually as follows:
 
