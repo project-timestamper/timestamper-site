@@ -4,7 +4,7 @@ title:  "About Project Timestamper"
 width: narrow
 ---
 
-Project Timestamper is an open-source effort to protect the integrity of humanity’s informational heritage in the age of generative AI. In this project, we are cryptographically timestamping valuable historical content onto the Bitcoin blockchain, thereby creating permanent proof of the existence of content as of the mid 2020s. We are creating these timestamps and sharing them with the public to ensure that human-generated content of the past can be clearly identified even after AI-generated content comes to dominate our culture.
+Project Timestamper is an open-source effort to protect the integrity of humanity’s informational heritage in the age of generative AI. In this project, we are cryptographically timestamping valuable historical content onto the Bitcoin blockchain, thereby creating permanent proof of the existence of content as of the mid 2020s. We are creating these timestamps and sharing them with the public to ensure that human-generated content of the past can be clearly identified even after [AI-generated content comes to dominate our culture](/why).
 
 So far, we have timestamped:
 
