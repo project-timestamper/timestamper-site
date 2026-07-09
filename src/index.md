@@ -4,7 +4,7 @@ site-title: Project Timestamper
 layout: home-layout.html
 tagline: Preserving the integrity of humanity's cultural and scientific achievements
 subtitle: Timestamp Collections
-description: We have timestamped millions of works of art, literature and science, to certify that they existed before the advent of mass counterfeiting by generative AI.
+description: We have permanently timestamped millions of works of art, literature, and science onto the Bitcoin blockchain, to provide verifiable proof they existed before generative AI made mass counterfeiting possible.
 stamp-date-label: 'Stamp date:'
 items:
   - name: Films and TV
