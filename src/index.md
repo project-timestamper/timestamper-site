@@ -61,5 +61,11 @@ items:
     alt: Bariş Manço, 2023
     url: https://github.com/project-timestamper/timestamper/tree/main/docs/annas_music
     stamp-date: '2025-12-16'
+  - name: Genomes
+    description: 3.68M genome sequences from NCBI
+    image: hoverfly.jpg
+    alt: a hoverfly
+    url: https://github.com/project-timestamper/timestamper/tree/main/docs/ncbi_genomes
+    stamp-date: '2026-08-21'
 ---
 
