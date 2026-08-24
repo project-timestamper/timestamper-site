@@ -11,13 +11,14 @@ So far, we have timestamped:
  * Millions of fiction and nonfiction books
  * Millions of audio music tracks
  * Millions of research papers
+ * Millions of sequenced genomes
  * Nearly a million movies and TV shows
 
 (We didn't need to download these materials -- instead, digests were already publicly availble for timestamping.)
 
 In addition, we have created a service that automatically timestamps the database dumps of Wikipedia and other Wikimedia Foundation sites, including Wiktionary, Wikibooks, Wikiquote, Wikinews, Wikispecies, Wikiversity and Wikivoyage. We have also timestamped all visual art in WikiArt's archive.
 
-In the near future we hope to timestamp more collections, including newspaper archives, sequenced genomes, patents, web archives, etc. And we encourage institutions that run important archival projects, such as the Internet Archive, Open Library, YouTube, and Google Books, to regularly timestamp the content in their databases as well.
+In the near future we hope to timestamp more collections, including newspaper archives, patents, web archives, etc. And we encourage institutions that run important archival projects, such as the Internet Archive, Open Library, YouTube, and Google Books, to regularly timestamp the content in their databases as well.
 
 Furthermore, we hope to make it easy for individuals to timestamp YouTube videos, web pages, social media posts, and other historical content that is of value to someone who wants to preserve the integrity of that content for future generations.
 
