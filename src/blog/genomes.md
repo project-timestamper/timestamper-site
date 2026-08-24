@@ -4,8 +4,6 @@ title: "Protecting the authenticity of the world's genome record"
 date: 2026-08-24
 width: narrow
 tags: blog
-permalink: false
-eleventyExcludeFromCollections: true
 ---
 
 We’re thrilled to announce the completion of a new effort to cryptographically timestamp more than 3.6 million genome sequences found in nature! This work preserves the authenticity of the world's public genomic record, including genomes from animals, plants, fungi, bacteria, archaea, viruses, and <i>Homo sapiens</i>.
