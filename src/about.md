@@ -12,6 +12,7 @@ So far, we have timestamped:
  * Millions of audio music tracks
  * Millions of research papers
  * Millions of sequenced genomes
+ * Thousands of variants of the human genome
  * Nearly a million movies and TV shows
 
 (We didn't need to download these materials -- instead, digests were already publicly availble for timestamping.)
