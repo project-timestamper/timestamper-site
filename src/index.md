@@ -67,5 +67,11 @@ items:
     alt: a hoverfly
     url: https://github.com/project-timestamper/timestamper/tree/main/docs/ncbi_genomes
     stamp-date: '2026-08-21'
+  - name: Human genome variants
+    description: 2,500 human genome variants from the 1000 Genomes project
+    image: early-migrations.jpg
+    alt: Map of early human migrations
+    url: https://github.com/project-timestamper/timestamper/tree/main/docs/human_genome_variants
+    stamp-date: '2026-09-14'
 ---
 
