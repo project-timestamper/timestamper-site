@@ -7,13 +7,19 @@ body {
   color: #16181a;
 }
 
-.content img, em {
+.content img {
   width: 100%;
   height: auto;
   max-height: 50rem;
   margin: 0 auto;
   display: block;
+}
+
+/* Image captions written as Markdown *italic* on the line after an image */
+.content img + em {
+  display: block;
   font-size: 16px;
+  margin: 0.25em auto 0;
 }
 
 .inner {
