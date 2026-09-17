@@ -139,17 +139,33 @@ h1 {
 }
 
 .items {
-  flex-wrap: wrap;
-  padding: 0;
-  justify-content: center;
+  column-count: 1;
+  column-gap: 1em;
+  padding: 0 0.5em;
 }
 
 .item {
-  margin: 0.5em;
-  display: block;
+  margin: 0 0 1em;
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+  break-inside: avoid;
   background-color: rgb(239 239 239);
   border-radius: 0.5em;
   padding: 1em;
+  box-sizing: border-box;
+}
+
+@media (min-width: 600px) {
+  .items {
+    column-count: 2;
+  }
+}
+
+@media (min-width: 1000px) {
+  .items {
+    column-count: 3;
+  }
 }
 
 .item .item-name {
