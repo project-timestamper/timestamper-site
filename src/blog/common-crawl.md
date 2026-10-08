@@ -6,15 +6,15 @@ width: narrow
 tags: blog
 ---
 
-Our latest announcement from Project Timestamper concerns a number whose scale far exceeds anything we have worked with before. That number is 339 billion, or 3.39x10<sup>11</sup>.
+Our latest announcement from Project Timestamper concerns a number whose scale far exceeds anything we have worked with before. That number is 339 billion, or 3.39×10<sup>11</sup>.
 
-It happens to be the number of web page snapshots captured by the [Common Crawl](https://commoncrawl.org/) project over the past 18 years. This epic web crawl is one of the most important in the world, perhaps second only in size to the continuous crawl that is performed by Internet Archive's [Wayback Machine](https://web.archive.org/). Common Crawl's hundreds of billions of snapshots save web pages precisely as they looked over the years. One might think of it as a recording of a significant part of the collective thoughts of humanity over the past two decades.
+It happens to be the number of web page snapshots captured by the [Common Crawl](https://commoncrawl.org/) project over the past 18 years. This epic web crawl is one of the most important in the world, perhaps second only in size to the continuous crawl that is performed by Internet Archive's [Wayback Machine](https://web.archive.org/). Common Crawl's hundreds of billions of snapshots save web pages precisely as they existed over the years, totalling more than 10 petabytes of snapshot data. One might think of it as a recording of a significant part of the collective thoughts of humanity over the past two decades.
 
 Such a recording is obviously precious to us humans. It would be a shame if anything happened to it! As AI's capability to generate plausible data and hack databases continues to grow, how will we know what's original and what is modification, imitation, confabulation?
 
-So we're happy to announce that we have cryptographically timestamped the whole thing! Every web page capture has been committed to the Bitcoin blockchain, so there is proof that each captured page snapshot (whenever it was captured) existed byte for byte in the Common Crawl collection as of 2026-09-26.
+So we're happy to announce that we have cryptographically timestamped the whole thing! Every web page capture has been committed via a chain of hashes to the Bitcoin blockchain, so there is proof that each captured page snapshot (whenever it was captured) existed byte for byte in the Common Crawl collection as of 2026-09-26. Any alteration after that date will be detectable.
 
-Ordinarily, the entire collection of individual snapshots would have been prohibitively large us to timestamp all individual files in a reasonable time. Fortunately, Common Crawl had already hashed all web page snapshots and collected the hashes in blocks of up to 3000. We were thus able to hash each of about 134 million blocks in just a few weeks, and timestamp those hashes in a single batch using the [OpenTimestamps](https://opentimestamps.org/) service.
+Ordinarily, timestamping the entire collection of individual snapshots would have been prohibitively slow: there are far too many items to process in a reasonable time. Fortunately, Common Crawl had already hashed all web page snapshots and collected the hashes in blocks of up to 3000 index entries. We were thus able to hash each of about 134 million blocks in just a few weeks, and timestamp those hashes in a single batch using the [OpenTimestamps](https://opentimestamps.org/) service.
 
 Our resulting hashes and timestamp attestations are arranged in such a way that cryptographically verifying any one of these 339 billion snapshots requires just a few seconds and a few hundred KB of downloaded data. Our [verification tool](https://github.com/project-timestamper/stamper) lets you check for a snapshot's existence in a single command:
 
