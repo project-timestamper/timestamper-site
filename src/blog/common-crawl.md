@@ -6,7 +6,7 @@ width: narrow
 tags: blog
 ---
 
-Our latest announcement from Project Timestamper concerns a number whose scale exceeds anything we have worked with before. That number is 330 billion, or 3.3x10<sup>11</sup>.
+Our latest announcement from Project Timestamper concerns a number whose scale far exceeds anything we have worked with before. That number is 330 billion, or 3.3x10<sup>11</sup>.
 
 It happens to be the number of web pages captured by the [Common Crawl](https://commoncrawl.org/) project over the past 18 years. This epic web crawl is one of the most important in the world, perhaps second only in size to the continuous crawl that is performed by Internet Archive's [Wayback Machine](https://web.archive.org/). Common Crawl's hundreds of billions of snapshots save web pages precisely as they looked over the years. One might think of it as a recording of a significant part of the collective mind of humanity over the past two decades.
 
