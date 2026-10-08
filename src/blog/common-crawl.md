@@ -6,17 +6,17 @@ width: narrow
 tags: blog
 ---
 
-Our latest announcement from Project Timestamper contains a number on a scale we had not previously dared to utter in public. That number is 330 billion, or 3.3x10<sup>11</sup>.
+Our latest announcement from Project Timestamper concerns a number whose scale exceeds anything we have worked with before. That number is 330 billion, or 3.3x10<sup>11</sup>.
 
 It happens to be the number of web pages captured by the [Common Crawl](https://commoncrawl.org/) project over the past 18 years. This epic web crawl is one of the most important in the world, perhaps second only in size to the continuous crawl that is performed by Internet Archive's [Wayback Machine](https://web.archive.org/). Common Crawl contains hundreds of billions of snapshots of how web pages looked over time. One might think of it as a recording of a significant part of the collective mind of humanity over the past two decades.
 
 Such a recording is obviously precious to humanity. It would be a shame if anything happened to it. Of course, in the age of AI, how do we know what's original and what is imitation, simulation, confabulation?
 
-So we cryptographically timestamped the whole thing! Every web page capture has been committed to the Bitcoin blockchain, so there is proof that the captured page (whenever it was captured) existed byte for byte in the Common Crawl as of 2026-09-26.
+So, we're happy to announce, that we cryptographically timestamped the whole thing! Every web page capture has been committed to the Bitcoin blockchain, so there is proof that the captured page (whenever it was captured) existed byte for byte in the Common Crawl as of 2026-09-26.
 
 Ordinarily, the entire collection of individual items would have been prohibitively large for timestamping individual files. Fortunately, Common Crawl had already hashed each page snapshot and collected them in blocks of 3000. We were thus able to hash each of 110 million blocks in just a couple of weeks, and timestamp them in a single batch using the [OpenTimestamps](https://opentimestamps.org/) service.
 
-Our hashes and timestamp attestations are arranged in such a way that verifying any one of these 330 billion snapshots requires just a few seconds and a few hundred KB of downloaded data. Our verification tool lets you check for a web page's existence in a single command:
+Our hashes and timestamp attestations are arranged in such a way that verifying any one of these 330 billion snapshots requires just a few seconds and a few hundred KB of downloaded data. Our [verification tool](https://github.com/project-timestamper/stamper) lets you check for a web page's existence in a single command:
 
 ```
 > npx tsx verify.ts
