@@ -77,7 +77,7 @@ items:
     description: 339 Billion web page captures from Common Crawl
     image: common-crawl.jpg
     alt: Spider in a web
-    url: https://github.com/project-timestamper/timestamper/tree/main/docs/common_crawl_blocks
+    url: https://github.com/project-timestamper/timestamper-commoncrawl/tree/main/docs/common_crawl_blocks
     stamp-date: '2026-09-26'
 ---
 
