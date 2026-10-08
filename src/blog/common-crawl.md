@@ -14,7 +14,7 @@ Such a recording is obviously precious to humanity. It would be a shame if anyth
 
 So we're happy to announce that we have cryptographically timestamped the whole thing! Every web page capture has been committed to the Bitcoin blockchain, so there is proof that the captured page (whenever it was captured) existed byte for byte in the Common Crawl collection as of 2026-09-26.
 
-Ordinarily, the entire collection of individual items would have been prohibitively large for timestamping individual files. Fortunately, Common Crawl had already hashed all web page snapshots and collected the hashes in blocks of 3000. We were thus able to hash each of 110 million blocks in just a couple of weeks, and timestamp them in a single batch using the [OpenTimestamps](https://opentimestamps.org/) service.
+Ordinarily, the entire collection of individual items would have been prohibitively large for timestamping individual files. Fortunately, Common Crawl had already hashed all web page snapshots and collected the hashes in blocks of 3000. We were thus able to hash each of 110 million blocks in just a couple of weeks, and timestamp those hashes in a single batch using the [OpenTimestamps](https://opentimestamps.org/) service.
 
 Our hashes and timestamp attestations are arranged in such a way that verifying any one of these 330 billion snapshots requires just a few seconds and a few hundred KB of downloaded data. Our [verification tool](https://github.com/project-timestamper/stamper) lets you check for a web page's existence in a single command:
 
