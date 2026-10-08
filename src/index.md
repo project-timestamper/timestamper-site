@@ -7,6 +7,24 @@ subtitle: Timestamp Collections
 description: We have permanently timestamped millions of works of art, literature, and science onto the Bitcoin blockchain, to provide verifiable proof they existed before generative AI made mass counterfeiting possible.
 stamp-date-label: 'Stamp date:'
 items:
+  - name: Wikipedia
+    description: Database snapshots
+    image: wikipedia.png
+    alt: Wikipedia logo
+    url: https://timestamper.toolforge.org/data/
+    stamp-date: Monthly since 2024-04-24
+  - name: Fiction books
+    description: 3.03M fiction books from LibGen
+    image: 1984.jpg
+    alt: Cover of the book 1984, by George Orwell
+    url: https://github.com/project-timestamper/timestamper/tree/main/docs/libgen_fiction
+    stamp-date: '2024-09-16'
+  - name: Non-fiction books
+    description: 4.37M non-fiction books from LibGen
+    image: atomic-bomb.jpg
+    alt: Cover of the book The Making of the Atomic Bomb, by Richard Rhodes
+    url: https://github.com/project-timestamper/timestamper/tree/main/docs/libgen_nonfiction
+    stamp-date: '2024-09-16'
   - name: Films and TV
     description: 822K movies and television shows on IMDB from the BitTorrent network
     image: 2001.webp
@@ -19,18 +37,6 @@ items:
     alt: Still from Ikiru
     url: https://github.com/project-timestamper/timestamper/tree/main/docs/yts_movies
     stamp-date: '2024-09-19'
-  - name: Fiction books
-    description: 3.03M fiction books from LibGen
-    image: 1984.jpg
-    alt: Cover of the book 1984, by George Orwell
-    url: https://github.com/project-timestamper/timestamper/tree/main/docs/libgen_fiction
-    stamp-date: '2024-09-16'
-  - name: paintings
-    description: 192K paintings and visual art from WikiArt
-    image: persistence-of-memory.jpg
-    alt: The painting Persistence of Memory, by Salvador Dalí
-    url: https://github.com/project-timestamper/timestamper/tree/main/docs/wikiart_works
-    stamp-date: '2025-02-26'
   - name: Classic books
     description: 72K books from Project Gutenberg
     image: frankenstein.jpg
@@ -43,24 +49,12 @@ items:
     alt: First page of the paper announcing discovery of the structure of DNA
     url: https://github.com/project-timestamper/timestamper/tree/main/docs/scihub_articles
     stamp-date: '2024-10-11'
-  - name: Wikipedia
-    description: Database snapshots
-    image: wikipedia.png
-    alt: Wikipedia logo
-    url: https://timestamper.toolforge.org/data/
-    stamp-date: Monthly since 2024-04-24
-  - name: Human genome variants
-    description: 2,500 human genome variants from the 1000 Genomes project
-    image: early-migrations.jpg
-    alt: Map of early human migrations
-    url: https://github.com/project-timestamper/timestamper/tree/main/docs/human_genome_variants
-    stamp-date: '2026-09-14'
-  - name: Non-fiction books
-    description: 4.37M non-fiction books from LibGen
-    image: atomic-bomb.jpg
-    alt: Cover of the book The Making of the Atomic Bomb, by Richard Rhodes
-    url: https://github.com/project-timestamper/timestamper/tree/main/docs/libgen_nonfiction
-    stamp-date: '2024-09-16'
+  - name: paintings
+    description: 192K paintings and visual art from WikiArt
+    image: persistence-of-memory.jpg
+    alt: The painting Persistence of Memory, by Salvador Dalí
+    url: https://github.com/project-timestamper/timestamper/tree/main/docs/wikiart_works
+    stamp-date: '2025-02-26'
   - name: Music
     description: 86M audio tracks from Anna's Archive
     image: baris-manco-2023.jpg
@@ -73,4 +67,17 @@ items:
     alt: a hoverfly
     url: https://github.com/project-timestamper/timestamper/tree/main/docs/ncbi_genomes
     stamp-date: '2026-08-21'
+  - name: Human genome variants
+    description: 2,500 human genome variants from the 1000 Genomes project
+    image: early-migrations.jpg
+    alt: Map of early human migrations
+    url: https://github.com/project-timestamper/timestamper/tree/main/docs/human_genome_variants
+    stamp-date: '2026-09-14'
+  - name: Web Pages
+    description: 330 Billion web page captures from Common Crawl
+    image: common-crawl.jpg
+    alt: Spider in a web
+    url: https://github.com/project-timestamper/timestamper/tree/main/docs/common_crawl_blocks
+    stamp-date: '2026-09-26'
+---
 
