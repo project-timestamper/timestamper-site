@@ -74,7 +74,7 @@ items:
     url: https://github.com/project-timestamper/timestamper/tree/main/docs/human_genome_variants
     stamp-date: '2026-09-14'
   - name: Web Pages
-    description: 330 Billion web page captures from Common Crawl
+    description: 339 Billion web page captures from Common Crawl
     image: common-crawl.jpg
     alt: Spider in a web
     url: https://github.com/project-timestamper/timestamper/tree/main/docs/common_crawl_blocks
