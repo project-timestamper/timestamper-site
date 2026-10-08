@@ -10,9 +10,9 @@ Our latest announcement from Project Timestamper concerns a number whose scale f
 
 It happens to be the number of web pages captured by the [Common Crawl](https://commoncrawl.org/) project over the past 18 years. This epic web crawl is one of the most important in the world, perhaps second only in size to the continuous crawl that is performed by Internet Archive's [Wayback Machine](https://web.archive.org/). Common Crawl's hundreds of billions of snapshots save web pages precisely as they looked over the years. One might think of it as a recording of a significant part of the collective mind of humanity over the past two decades.
 
-Such a recording is obviously precious to humanity. It would be a shame if anything happened to it. Of course, in the age of AI, how do we know what's original and what is imitation, simulation, confabulation?
+Such a recording is obviously precious to humanity. It would be a shame if anything happened to it. As AI's capability to generate plausible data and hack databases continues to grow, how will we know what's original and what is modification, imitation, confabulation?
 
-So we're happy to announce that we cryptographically timestamped the whole thing! Every web page capture has been committed to the Bitcoin blockchain, so there is proof that the captured page (whenever it was captured) existed byte for byte in the Common Crawl collection as of 2026-09-26.
+So we're happy to announce that we have cryptographically timestamped the whole thing! Every web page capture has been committed to the Bitcoin blockchain, so there is proof that the captured page (whenever it was captured) existed byte for byte in the Common Crawl collection as of 2026-09-26.
 
 Ordinarily, the entire collection of individual items would have been prohibitively large for timestamping individual files. Fortunately, Common Crawl had already hashed all page snapshots and collected them in blocks of 3000. We were thus able to hash each of 110 million blocks in just a couple of weeks, and timestamp them in a single batch using the [OpenTimestamps](https://opentimestamps.org/) service.
 
