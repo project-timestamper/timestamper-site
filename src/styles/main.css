@@ -114,6 +114,27 @@ blockquote {
   border-radius: 1rem;
 }
 
+pre {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  max-width: 100%;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #33ff66;
+  background-color: #0d0d0d;
+  padding: 1em;
+  border-radius: 0.5em;
+  box-sizing: border-box;
+}
+
+pre code {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background: none;
+}
+
 h1 {
   line-height: 1.1;
   margin: 0 0 0.5em;

@@ -16,11 +16,14 @@ So we cryptographically timestamped the whole thing! Every web page capture has 
 
 Ordinarily, the entire collection of individual items would have been prohibitively large for timestamping individual files. Fortunately, Common Crawl had already hashed each page snapshot and collected them in blocks of 3000. We were thus able to hash each of 110 million blocks in just a couple of weeks, and timestamp them in a single batch using the OpenTimestamps service.
 
-Our hashes and timestamp attestations are arranged in such a way that verifying any one of these 330 billion snapshots requires just a few seconds and a few hundred KB of downloaded data. Our verification tool lets you check for a web page's existence in a single line, with a quick response indicating success or failure:
+Our hashes and timestamp attestations are arranged in such a way that verifying any one of these 330 billion snapshots requires just a few seconds and a few hundred KB of downloaded data. Our verification tool lets you check for a web page's existence in a single command:
 
 ```
 > npx tsx verify.ts
  --collection common_crawl_blocks --capture 0 https://en.wikipedia.org
+```
+ with a quick response indicating success or failure:
+```
 Success! Capture 0 (https://en.wikipedia.org/ at 20260915155254) is in CC-MAIN-2026-39, its CDX block is attested by Bitcoin block 968666 (000000000000000000010fb95a4fa547171edc525077191cbb74dc54acfaf0aa) as of 2026-09-26T09:35:20Z, and the WARC payload SHA-1 matches 3I42H3S6NNFQ2MSVX7XZKYAYSCX5QBYJ
 ```
 
