@@ -16,7 +16,7 @@ So we're happy to announce that we have cryptographically timestamped the whole 
 
 Ordinarily, the entire collection of individual items would have been prohibitively large for timestamping individual files. Fortunately, Common Crawl had already hashed all web page snapshots and collected the hashes in blocks of 3000. We were thus able to hash each of 110 million blocks in just a couple of weeks, and timestamp those hashes in a single batch using the [OpenTimestamps](https://opentimestamps.org/) service.
 
-Our hashes and timestamp attestations are arranged in such a way that verifying any one of these 330 billion snapshots requires just a few seconds and a few hundred KB of downloaded data. Our [verification tool](https://github.com/project-timestamper/stamper) lets you check for a web page's existence in a single command:
+Our hashes and timestamp attestations are arranged in such a way that cryptographically verifying any one of these 330 billion snapshots requires just a few seconds and a few hundred KB of downloaded data. Our [verification tool](https://github.com/project-timestamper/stamper) lets you check for a web page's existence in a single command:
 
 ```
 > npx tsx verify.ts --collection common_crawl_blocks --capture 0 https://en.wikipedia.org
