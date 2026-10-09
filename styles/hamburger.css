@@ -53,8 +53,9 @@ body {
 
 /*
   * Just a quick hamburger
+  * (direct children only — not icon spans inside the menu)
   */
-#menu-toggle span {
+#menu-toggle > span {
   display: block;
   width: 33px;
   height: 4px;
@@ -69,11 +70,7 @@ body {
     opacity 0.55s ease;
 }
 
-#menu-toggle span:first-child {
-  transform-origin: 0% 0%;
-}
-
-#menu-toggle span:nth-last-child(2) {
+#menu-toggle > span:nth-last-child(2) {
   transform-origin: 0% 100%;
 }
 
@@ -81,7 +78,7 @@ body {
   * Transform all the slices of hamburger
   * into a crossmark.
   */
-#menu-toggle input:checked~span {
+#menu-toggle input:checked ~ span {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
   background: #232323;
@@ -90,7 +87,7 @@ body {
 /*
   * But let's hide the middle one.
   */
-#menu-toggle input:checked~span:nth-last-child(3) {
+#menu-toggle input:checked ~ span:nth-last-child(3) {
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
 }
@@ -98,7 +95,7 @@ body {
 /*
   * Ohyeah and the last one should go the other direction
   */
-#menu-toggle input:checked~span:nth-last-child(2) {
+#menu-toggle input:checked ~ span:nth-last-child(2) {
   transform: rotate(-45deg) translate(0, -1px);
 }
 
@@ -138,6 +135,25 @@ body {
   cursor: pointer;
 }
 
+#menu .menu-social {
+  border-top: 1px solid rgb(200 200 200);
+  margin-top: 0.35rem;
+  padding-top: 0.85rem;
+}
+
+#menu .menu-social .social-icons {
+  margin: 0;
+}
+
+#menu .menu-social .social-icons a {
+  color: #232323;
+}
+
+#menu .menu-social .social-icons a:hover {
+  color: tomato;
+  text-decoration: none;
+}
+
 /*
   * And let's slide it in from the right
   */
@@ -154,7 +170,19 @@ body {
     color: rgb(245 245 245);
   }
 
-  #menu-toggle input:checked~span {
+  #menu-toggle input:checked ~ span {
     background: #f0f0f0;
+  }
+
+  #menu .menu-social {
+    border-top-color: rgb(120 120 120);
+  }
+
+  #menu .menu-social .social-icons a {
+    color: rgb(245 245 245);
+  }
+
+  #menu .menu-social .social-icons a:hover {
+    color: tomato;
   }
 }
