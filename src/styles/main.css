@@ -266,9 +266,34 @@ h3 {
   margin: 1em;
 }
 
-.social-media {
-  font-size: min(4cqw, 20px);
-  text-align: center;
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.85rem;
+  margin: 0.75em 0 0.25em;
+}
+
+.social-icons a {
+  display: inline-flex;
+  color: rgb(73 73 73);
+  text-decoration: none;
+  padding: 0.2rem;
+}
+
+.social-icons a:hover {
+  color: rgb(0 0 0);
+  text-decoration: none;
+}
+
+.social-icon {
+  display: inline-flex;
+  line-height: 0;
+}
+
+.social-icon svg {
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 .creative-commons {
@@ -319,8 +344,12 @@ h3 {
     color:rgb(175 255 252);
   }
 
-  .social-media a {
-    color: rgb(200 200 200)
+  .social-icons a {
+    color: rgb(200 200 200);
+  }
+
+  .social-icons a:hover {
+    color: rgb(245 245 245);
   }
 
   .navbar a {
