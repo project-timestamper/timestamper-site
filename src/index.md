@@ -89,5 +89,11 @@ items:
       - description: 430K preprints from bioRxiv and medRxiv
         url: https://github.com/project-timestamper/timestamper/tree/main/docs/openrxiv_preprints
         stamp-date: '2026-10-14'
+  - name: Git repositories
+    description: 2.87M public software repositories found on GitHub
+    image: git.svg
+    alt: Git logo
+    url: https://github.com/project-timestamper/timestamper/tree/main/docs/github_repos
+    stamp-date: '2026-10-10'
 ---
 
