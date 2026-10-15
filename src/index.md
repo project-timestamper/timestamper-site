@@ -79,6 +79,12 @@ items:
     alt: Spider in a web
     url: https://github.com/project-timestamper/timestamper-commoncrawl/tree/main/docs/common_crawl_blocks
     stamp-date: '2026-09-26'
+  - name: Protein Structures
+    description: 4.73M protein structures from the Protein Data Bank
+    image: protein.png
+    alt: Fo subunit of ATPase, created in PyMOL
+    url: https://github.com/project-timestamper/timestamper/tree/main/docs/pdb_files
+    stamp-date: '2026-09-26'
   - name: Scholarly preprints
     image: preprint.png
     alt: First page of Attention Is All You Need, by Vaswani et al.
