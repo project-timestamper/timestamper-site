@@ -31,12 +31,23 @@
           src="/img/{{item.image}}"
           alt="{{item.alt}}"
         >
+        {% if item.sources %}
+        {% for source in item.sources %}
+        <div class="facts">
+          <a href="{{source.url}}">{{source.description}}</a>
+        </div>
+        <div class="date facts">
+          {{stamp-date-label}} {{source.stamp-date}}
+        </div>
+        {% endfor %}
+        {% else %}
         <div class="facts">
           <a href="{{item.url}}">{{item.description}}</a>
         </div>
         <div class="date facts">
           {{stamp-date-label}} {{item.stamp-date}}
         </div>
+        {% endif %}
       </div>
       {% endfor %}
     </div>

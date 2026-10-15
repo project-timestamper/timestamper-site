@@ -79,5 +79,15 @@ items:
     alt: Spider in a web
     url: https://github.com/project-timestamper/timestamper-commoncrawl/tree/main/docs/common_crawl_blocks
     stamp-date: '2026-09-26'
+  - name: Scholarly preprints
+    image: preprint.png
+    alt: First page of Attention Is All You Need, by Vaswani et al.
+    sources:
+      - description: 3.2M preprints from arXiv
+        url: https://github.com/project-timestamper/timestamper/tree/main/docs/arxiv_papers
+        stamp-date: '2026-10-01'
+      - description: 430K preprints from bioRxiv and medRxiv
+        url: https://github.com/project-timestamper/timestamper/tree/main/docs/openrxiv_preprints
+        stamp-date: '2026-10-14'
 ---
 
