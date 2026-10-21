@@ -23,7 +23,7 @@ So far, we have timestamped:
 
 In addition, we have created a service that automatically timestamps the database dumps of Wikipedia and other Wikimedia Foundation sites, including Wiktionary, Wikibooks, Wikiquote, Wikinews, Wikispecies, Wikiversity and Wikivoyage. We have also timestamped all visual art in WikiArt's archive.
 
-In the near future we hope to timestamp more collections, including newspaper archives, patents, web archives, etc. And we encourage institutions that run important archival projects, such as the Internet Archive, Open Library, YouTube, and Google Books, to regularly timestamp the content in their databases as well.
+In the near future we hope to timestamp more collections, including newspaper archives, legal archives, etc. And we encourage institutions that run important archival projects, such as the Internet Archive, Open Library, YouTube, and Google Books, to regularly timestamp the content in their databases as well.
 
 Furthermore, we hope to make it easy for individuals to timestamp YouTube videos, web pages, social media posts, and other historical content that is of value to someone who wants to preserve the integrity of that content for future generations.
 
