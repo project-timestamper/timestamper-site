@@ -8,13 +8,14 @@ Project Timestamper is an [open-source](https://github.com/orgs/project-timestam
 
 So far, we have timestamped:
 
- * Hundres of billions of web page captures
+ * Hundreds of billions of web page captures
  * Millions of fiction and nonfiction books
  * Millions of audio music tracks
  * Millions of research papers and preprints
  * Millions of sequenced genomes
- * Millions of software repositories
  * Millions of protein structures 
+ * Millions of software repositories
+ * Millions of patents
  * Nearly a million movies and TV shows
  * Thousands of variants of the human genome
 

@@ -67,6 +67,16 @@ items:
     alt: a hoverfly
     url: https://github.com/project-timestamper/timestamper/tree/main/docs/ncbi_genomes
     stamp-date: '2026-08-21'
+  - name: Patents
+    image: wright_flying_machine.png
+    alt: Drawing of the Wright brothers' flying machine from their patent
+    sources:
+      - description: 7.01M patents from the European Patent Office
+        url: https://github.com/project-timestamper/timestamper/tree/main/docs/epo_patents
+        stamp-date: '2026-09-09'
+      - description: 13.9M patents from the United States Patent Office
+        url: https://github.com/project-timestamper/timestamper2/tree/main/docs/uspto_patents
+        stamp-date: '2026-10-21'
   - name: Human genome variants
     description: 2,500 human genome variants from the 1000 Genomes project
     image: early-migrations.jpg
