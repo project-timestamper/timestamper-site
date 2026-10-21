@@ -19,7 +19,7 @@ So far, we have timestamped:
  * Nearly a million movies and TV shows
  * Thousands of variants of the human genome
 
-(We didn't need to download these materials -- instead, digests were already publicly availble for timestamping.)
+(We didn't need to download these most of these materials -- instead, digests were already publicly availble for timestamping.)
 
 In addition, we have created a service that automatically timestamps the database dumps of Wikipedia and other Wikimedia Foundation sites, including Wiktionary, Wikibooks, Wikiquote, Wikinews, Wikispecies, Wikiversity and Wikivoyage. We have also timestamped all visual art in WikiArt's archive.
 
