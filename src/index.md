@@ -74,7 +74,7 @@ items:
       - description: 7.01M patents from the European Patent Office
         url: https://github.com/project-timestamper/timestamper/tree/main/docs/epo_patents
         stamp-date: '2026-09-09'
-      - description: 13.9M patents from the United States Patent Office
+      - description: 13.9M patents from the United States Patent and Trademark Office
         url: https://github.com/project-timestamper/timestamper2/tree/main/docs/uspto_patents
         stamp-date: '2026-10-21'
   - name: Human genome variants
