@@ -7,94 +7,18 @@ subtitle: Timestamp Collections
 description: We have permanently timestamped millions of works of art, literature, and science onto the Bitcoin blockchain, to provide verifiable proof they existed before generative AI made mass counterfeiting possible.
 stamp-date-label: 'Stamp date:'
 items:
-  - name: Wikipedia
-    description: Database snapshots
-    image: wikipedia.png
-    alt: Wikipedia logo
-    url: https://timestamper.toolforge.org/data/
-    stamp-date: Monthly since 2024-04-24
-  - name: Fiction books
-    description: 3.03M fiction books from LibGen
-    image: 1984.jpg
-    alt: Cover of the book 1984, by George Orwell
-    url: https://github.com/project-timestamper/timestamper/tree/main/docs/libgen_fiction
-    stamp-date: '2024-09-16'
-  - name: Non-fiction books
-    description: 4.37M non-fiction books from LibGen
-    image: atomic-bomb.jpg
-    alt: Cover of the book The Making of the Atomic Bomb, by Richard Rhodes
-    url: https://github.com/project-timestamper/timestamper/tree/main/docs/libgen_nonfiction
-    stamp-date: '2024-09-16'
-  - name: Films and TV
-    description: 822K movies and television shows on IMDB from the BitTorrent network
-    image: 2001.webp
-    alt: 'Still from 2001: A Space Odyssey'
-    url: https://github.com/project-timestamper/timestamper/tree/main/docs/tpb_movies
-    stamp-date: '2024-09-19'
-  - name: Films
-    description: 135K movies from YTS
-    image: ikiru.jpg
-    alt: Still from Ikiru
-    url: https://github.com/project-timestamper/timestamper/tree/main/docs/yts_movies
-    stamp-date: '2024-09-19'
-  - name: Classic books
-    description: 72K books from Project Gutenberg
-    image: frankenstein.jpg
-    alt: Cover of the book Frankenstein, by Mary Shelley
-    url: https://github.com/project-timestamper/timestamper/tree/main/docs/gutenberg_books
-    stamp-date: '2024-09-19'
-  - name: scientific papers
-    description: 85.1M articles from Sci-Hub
-    image: watson-crick.png
-    alt: First page of the paper announcing discovery of the structure of DNA
-    url: https://github.com/project-timestamper/timestamper/tree/main/docs/scihub_articles
-    stamp-date: '2024-10-11'
-  - name: paintings
-    description: 192K paintings and visual art from WikiArt
-    image: persistence-of-memory.jpg
-    alt: The painting Persistence of Memory, by Salvador Dalí
-    url: https://github.com/project-timestamper/timestamper/tree/main/docs/wikiart_works
-    stamp-date: '2025-02-26'
-  - name: Music
-    description: 86M audio tracks from Anna's Archive
-    image: baris-manco-2023.jpg
-    alt: Bariş Manço, 2023
-    url: https://github.com/project-timestamper/timestamper/tree/main/docs/annas_music
-    stamp-date: '2025-12-16'
-  - name: Genomes
-    description: 3.68M genome sequences from NCBI
-    image: hoverfly.jpg
-    alt: a hoverfly
-    url: https://github.com/project-timestamper/timestamper/tree/main/docs/ncbi_genomes
-    stamp-date: '2026-08-21'
-  - name: Patents
-    image: wright_flying_machine.png
-    alt: Drawing of the Wright brothers' flying machine from their patent
-    sources:
-      - description: 7.01M patents from the European Patent Office
-        url: https://github.com/project-timestamper/timestamper/tree/main/docs/epo_patents
-        stamp-date: '2026-09-09'
-      - description: 13.9M patents from the United States Patent and Trademark Office
-        url: https://github.com/project-timestamper/timestamper2/tree/main/docs/uspto_patents
-        stamp-date: '2026-10-21'
-  - name: Human genome variants
-    description: 2,500 human genome variants from the 1000 Genomes project
-    image: early-migrations.jpg
-    alt: Map of early human migrations
-    url: https://github.com/project-timestamper/timestamper/tree/main/docs/human_genome_variants
-    stamp-date: '2026-09-14'
-  - name: Web Pages
-    description: 339 Billion web page captures from Common Crawl
-    image: common-crawl.jpg
-    alt: Spider in a web
-    url: https://github.com/project-timestamper/timestamper-commoncrawl/tree/main/docs/common_crawl_blocks
-    stamp-date: '2026-09-26'
-  - name: Protein Structures
-    description: 4.73M protein structures from the Protein Data Bank
-    image: protein.png
-    alt: Fo subunit of ATPase, created in PyMOL
-    url: https://github.com/project-timestamper/timestamper/tree/main/docs/pdb_files
-    stamp-date: '2026-09-26'
+  - name: Web Pages (Internet Archive)
+    description: More than 1 trillion web page captured by the Internet Archive
+    image: internet-archive.png
+    alt: Internet Archive logo
+    url: https://github.com/project-timestamper/timestamper-wayback/tree/main/docs/wayback_cdx
+    stamp-date: '2026-11-20'
+  - name: Git repositories
+    description: 2.87M public software repositories found on GitHub
+    image: git.svg
+    alt: Git logo
+    url: https://github.com/project-timestamper/timestamper/tree/main/docs/github_repos
+    stamp-date: '2026-10-10'
   - name: Scholarly preprints
     image: preprint.png
     alt: First page of Attention Is All You Need, by Vaswani et al.
@@ -105,11 +29,93 @@ items:
       - description: 430K preprints from bioRxiv and medRxiv
         url: https://github.com/project-timestamper/timestamper/tree/main/docs/openrxiv_preprints
         stamp-date: '2026-10-14'
-  - name: Git repositories
-    description: 2.87M public software repositories found on GitHub
-    image: git.svg
-    alt: Git logo
-    url: https://github.com/project-timestamper/timestamper/tree/main/docs/github_repos
-    stamp-date: '2026-10-10'
+  - name: Protein Structures
+    description: 4.73M protein structures from the Protein Data Bank
+    image: protein.png
+    alt: Fo subunit of ATPase, created in PyMOL
+    url: https://github.com/project-timestamper/timestamper/tree/main/docs/pdb_files
+    stamp-date: '2026-09-26'
+  - name: Web Pages (Common Crawl)
+    description: 339 Billion web page captures from Common Crawl
+    image: common-crawl.jpg
+    alt: Spider in a web
+    url: https://github.com/project-timestamper/timestamper-commoncrawl/tree/main/docs/common_crawl_blocks
+    stamp-date: '2026-09-26'
+  - name: Human genome variants
+    description: 2,500 human genome variants from the 1000 Genomes project
+    image: early-migrations.jpg
+    alt: Map of early human migrations
+    url: https://github.com/project-timestamper/timestamper/tree/main/docs/human_genome_variants
+    stamp-date: '2026-09-14'
+  - name: Patents
+    image: wright_flying_machine.png
+    alt: Drawing of the Wright brothers' flying machine from their patent
+    sources:
+      - description: 7.01M patents from the European Patent Office
+        url: https://github.com/project-timestamper/timestamper/tree/main/docs/epo_patents
+        stamp-date: '2026-09-09'
+      - description: 13.9M patents from the United States Patent and Trademark Office
+        url: https://github.com/project-timestamper/timestamper2/tree/main/docs/uspto_patents
+        stamp-date: '2026-10-21'
+  - name: Genomes
+    description: 3.68M genome sequences from NCBI
+    image: hoverfly.jpg
+    alt: a hoverfly
+    url: https://github.com/project-timestamper/timestamper/tree/main/docs/ncbi_genomes
+    stamp-date: '2026-08-21'
+  - name: Music
+    description: 86M audio tracks from Anna's Archive
+    image: baris-manco-2023.jpg
+    alt: Bariş Manço, 2023
+    url: https://github.com/project-timestamper/timestamper/tree/main/docs/annas_music
+    stamp-date: '2025-12-16'
+  - name: paintings
+    description: 192K paintings and visual art from WikiArt
+    image: persistence-of-memory.jpg
+    alt: The painting Persistence of Memory, by Salvador Dalí
+    url: https://github.com/project-timestamper/timestamper/tree/main/docs/wikiart_works
+    stamp-date: '2025-02-26'
+  - name: scientific papers
+    description: 85.1M articles from Sci-Hub
+    image: watson-crick.png
+    alt: First page of the paper announcing discovery of the structure of DNA
+    url: https://github.com/project-timestamper/timestamper/tree/main/docs/scihub_articles
+    stamp-date: '2024-10-11'
+  - name: Classic books
+    description: 72K books from Project Gutenberg
+    image: frankenstein.jpg
+    alt: Cover of the book Frankenstein, by Mary Shelley
+    url: https://github.com/project-timestamper/timestamper/tree/main/docs/gutenberg_books
+    stamp-date: '2024-09-19'
+  - name: Films
+    description: 135K movies from YTS
+    image: ikiru.jpg
+    alt: Still from Ikiru
+    url: https://github.com/project-timestamper/timestamper/tree/main/docs/yts_movies
+    stamp-date: '2024-09-19'
+  - name: Films and TV
+    description: 822K movies and television shows on IMDB from the BitTorrent network
+    image: 2001.webp
+    alt: 'Still from 2001: A Space Odyssey'
+    url: https://github.com/project-timestamper/timestamper/tree/main/docs/tpb_movies
+    stamp-date: '2024-09-19'
+  - name: Non-fiction books
+    description: 4.37M non-fiction books from LibGen
+    image: atomic-bomb.jpg
+    alt: Cover of the book The Making of the Atomic Bomb, by Richard Rhodes
+    url: https://github.com/project-timestamper/timestamper/tree/main/docs/libgen_nonfiction
+    stamp-date: '2024-09-16'
+  - name: Fiction books
+    description: 3.03M fiction books from LibGen
+    image: 1984.jpg
+    alt: Cover of the book 1984, by George Orwell
+    url: https://github.com/project-timestamper/timestamper/tree/main/docs/libgen_fiction
+    stamp-date: '2024-09-16'
+  - name: Wikipedia
+    description: Database snapshots
+    image: wikipedia.png
+    alt: Wikipedia logo
+    url: https://timestamper.toolforge.org/data/
+    stamp-date: Monthly since 2024-04-24
 ---
 
