@@ -8,7 +8,7 @@ description: We have permanently timestamped millions of works of art, literatur
 stamp-date-label: 'Stamp date:'
 items:
   - name: Web Pages (Internet Archive)
-    description: More than 1 trillion web page captured by the Internet Archive
+    description: More than 1 trillion web pages captured by the Internet Archive
     image: internet-archive.png
     alt: Internet Archive logo
     url: https://github.com/project-timestamper/timestamper-wayback/tree/main/docs/wayback_cdx
